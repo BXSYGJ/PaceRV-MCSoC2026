@@ -1,0 +1,292 @@
+[
+  {
+    "case": "bit67/E0/K1/riscv-matmul16",
+    "result_sha256": "48df0cd80589da71287bc18d6c1b27a88a800c793672fefc0b74982a58636480",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K1/riscv-median400",
+    "result_sha256": "5343bde117bb7fd68906dfa5f65b01e71e4dbe97b41d44205d17681f0bb1771e",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K1/riscv-qsort2048",
+    "result_sha256": "53e49fd4d5f1da5e269f288fa9f37dcee2e4141dc0b681cb5200c5f4d63d6132",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K1/riscv-vvadd300",
+    "result_sha256": "11c0e862a07eaadd045b5aabda5251a4ee6d1cc6b845d25cb727561720174d77",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K2/riscv-matmul16",
+    "result_sha256": "006665c7932d7be489f17f4297bb97bebdefb40cbf5b74ef903dc909ab6c8965",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K2/riscv-median400",
+    "result_sha256": "5e689c6bf371e9a8c614de0be5d4ecd0f566a54c3ae9143ef939554091cc89cf",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K2/riscv-qsort2048",
+    "result_sha256": "a77e6d9e21597d02ba81e3e08215cb0b04d7c1547171f46584be6af676a77411",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K2/riscv-vvadd300",
+    "result_sha256": "2c65bff06ab5ec184e01c9a05618dd20a69dce53e0703967f17fd027c456eee0",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/K3/riscv-matmul16",
+    "result_sha256": "c80a08d618b49e49f0892275eb1341d8740958263ee2807a2b4ec99844ec4080",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-matmul16",
+    "result_sha256": "b428ab71fe61a6c5d3d3c3e53738b306621184fe59082f7228ab209fab6cc8c5",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-median400",
+    "result_sha256": "7fdf30019bc1cb0bb09433b645986450ff3ad54498b122f17525610e635010c7",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-qsort2048",
+    "result_sha256": "0a9c434e56b8afbe6b65f3fe5a9a987808b7eeee59ea4028d5645b10b3ba8a48",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-vvadd300",
+    "result_sha256": "8bc61abaa01a151f87a7ca335a249c9d36415aab81da5159431375434c280676",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K1/riscv-matmul16",
+    "result_sha256": "2fd72d80830c3a5b9bba6431bac96e0dfbf8e31348b45fa9c860e760853b3ab9",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K1/riscv-median400",
+    "result_sha256": "bb67006ee7192fc80ce9bd79c5cc0a6b2d3d1ae080da5d3cb16e2580bb2591b2",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K1/riscv-qsort2048",
+    "result_sha256": "6f2b2ab9cc158d68d0c54c04d4a43432d3f95e1f08570f74a3530f592d3424a7",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K1/riscv-vvadd300",
+    "result_sha256": "7992f07c9c5dce386b48808157b6bcaff68584434c4895241b93d8a0a3612e97",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K2/riscv-matmul16",
+    "result_sha256": "1877b0f0b7042b5372bfc7a3715ca83801f35d9b3312ad7c7b9d9a0ccc1c7684",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K2/riscv-median400",
+    "result_sha256": "6c6bbe6ffbbb687c3c202d6f492edc22e8e077fc468d3c3cd5ebeb85bfee233d",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K2/riscv-qsort2048",
+    "result_sha256": "19cf08f8e80714eadc9ba41dd204aa0ed3d41113e0e61c3003dc863dac43c948",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/K2/riscv-vvadd300",
+    "result_sha256": "89aa43e3a72dc513d3ccdf263192c5494998674927666e10f025adbd5c021b1c",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-matmul16",
+    "result_sha256": "df3a519050b433469cbc57f69f6eb00191a302286ac54cd33d0f4f30a5c676f7",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-median400",
+    "result_sha256": "c177d95b9dd8d0070e94eb0b6c2a02d8f28882bbb8dc712ce27935a4abcff299",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-qsort2048",
+    "result_sha256": "683e2278735cb00a75a1d394a86e9d5a724bb31d59b417360c6abc181235c1da",
+    "status": "passed"
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-vvadd300",
+    "result_sha256": "859f41a271558182e0f42106ad60fb622e2d6839704a4bffdb5cbc504067b9e9",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K1/riscv-matmul16",
+    "result_sha256": "035ccc908b20edfa03f100e9d59a701168c056cd47726df6952be6e4c71eb0d9",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K1/riscv-median400",
+    "result_sha256": "da4f5ca08fdc6f96d43abfc127cbfa3df10a9d83c117b62e3cfd8d73e9729210",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K1/riscv-qsort2048",
+    "result_sha256": "23b5b1dc87211980437a5db32e4e283fd044066e95c4287f788c95656fb52ef9",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K1/riscv-vvadd300",
+    "result_sha256": "f7571ccdac635a8f23e212c9ffda23b9b0ca72f88dcc17056b699ce020c0433c",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K2/riscv-matmul16",
+    "result_sha256": "1807a02c8070d2d8ec560a9d462a1c2826e7703cae3d32a9f6fb65efddc85b54",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K2/riscv-median400",
+    "result_sha256": "354b35ffe07e31b8840ca251e917b2caf0a2bb6b0e5ddcfbf4921efecb1c538e",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K2/riscv-qsort2048",
+    "result_sha256": "87ac77843e346970588eb9ffcff9a9fe3b22b8b24a48e029fc70db3c80ffd73d",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K2/riscv-vvadd300",
+    "result_sha256": "042ff53d718d02e5eaf7bff6c41b5dc488176d2b9da06c8cc86cd39246d573c0",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/K3/riscv-matmul16",
+    "result_sha256": "a87b4c3bf865c746b27184fd8d50c704c109c58597b435b06503f42fa56d8b56",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-matmul16",
+    "result_sha256": "0380ebd58f59eaf62c004d518a1128b053218c22ff4bd324db6e4dc632ec064e",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-median400",
+    "result_sha256": "491770eaa6c3cc476c6b030931560d49d40669697ebe9ebdd31eb5fcf5fb9c78",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-qsort2048",
+    "result_sha256": "5dfd973599f3ce8c2645f77f245654344afdd5ef394ffb8d2125149aa70f7589",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-vvadd300",
+    "result_sha256": "b9a7b9d1fbe1034581107038bad3c4c250300e1b881922e34b866838fe824a06",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K1/riscv-matmul16",
+    "result_sha256": "6c0192012d03cf235fbb2ae259aeefbcbfae92d5107fb4e35b1d883b54746645",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K1/riscv-median400",
+    "result_sha256": "f2369315d5172d3c7f5aec6cae61ae3e965ff79f7e0e79117e366b220e5a914c",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K1/riscv-qsort2048",
+    "result_sha256": "27c2f0594f1a485151467a65f0d603c992cd3962ea41267dd4128431da879d18",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K1/riscv-vvadd300",
+    "result_sha256": "d865582e67ed127a1c47ff62b531918d08e9f525e6f7620f7c83a2702d793f3e",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K2/riscv-matmul16",
+    "result_sha256": "2169bc0120205f71550778700849966cf3825509883c271f1a0d8bfaf6993507",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K2/riscv-median400",
+    "result_sha256": "d35702eb79655b6d9e7486d7f99a598a422436c220e68a7bc4c47f97e213248c",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K2/riscv-qsort2048",
+    "result_sha256": "4604145d04ef080f98701743b6e35b7e98c7f40242d7cc242b9421fc470783fb",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/K2/riscv-vvadd300",
+    "result_sha256": "e5618811ebeffdf7ed6add5940420b3e371b2372b7103b7343323cb68d10feb6",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-matmul16",
+    "result_sha256": "e7ac36307a5e7cc75ecfe18ec77c784c75586acd5141c2540fc25cac8c942700",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-median400",
+    "result_sha256": "eef46b77ae8697acc1dab5d4e07f0bb76d1ff6695ec212658c0fb69f85346c5c",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-qsort2048",
+    "result_sha256": "1f568838ca9823ed77ed8c24714196298a79a7fa0bf13ada25e21358bc59ec6d",
+    "status": "passed"
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-vvadd300",
+    "result_sha256": "7e16910603c4cac7a371320f732591d8122d09b801d4a57d850708015a46c298",
+    "status": "passed"
+  },
+  {
+    "case": "original/E0/Kinf/riscv-matmul16",
+    "result_sha256": "e961d48662aacd178cd18d103bb85601e3036d418886e740cb64ba4bfd16d628",
+    "status": "passed"
+  },
+  {
+    "case": "original/E0/Kinf/riscv-median400",
+    "result_sha256": "049682f3c6e9e5e1dbea94537706538eaeb23706d912d7f0c2ca735f3ebb4e13",
+    "status": "passed"
+  },
+  {
+    "case": "original/E0/Kinf/riscv-qsort2048",
+    "result_sha256": "701d66bce5e3c10a7f1a783dcf3a03df3d975db0c24961d4f7fe3269bd2c95ff",
+    "status": "passed"
+  },
+  {
+    "case": "original/E0/Kinf/riscv-vvadd300",
+    "result_sha256": "faf5cf164a6f1ebabb5dc3f61de6719764729b78dbb167ad4ecf98f99525884f",
+    "status": "passed"
+  },
+  {
+    "case": "original/E1/Kinf/riscv-matmul16",
+    "result_sha256": "57fc2e050137bc18739d3c06d5cc5bd77d99689592b821fb2f0456cdc2001108",
+    "status": "passed"
+  },
+  {
+    "case": "original/E1/Kinf/riscv-median400",
+    "result_sha256": "f67809972dd28bb11f0cd8f17d4785f16bf6303cb10d16184611feac4bb0c817",
+    "status": "passed"
+  },
+  {
+    "case": "original/E1/Kinf/riscv-qsort2048",
+    "result_sha256": "3d1f985c59bd5aa4121ecbbc605b5cb5cd5be890675f2064a3b80ef9c50aaade",
+    "status": "passed"
+  },
+  {
+    "case": "original/E1/Kinf/riscv-vvadd300",
+    "result_sha256": "ae7988369e2a65fc46d70206cf31de9f28d640d5215957427d20b371b041ca93",
+    "status": "passed"
+  }
+]

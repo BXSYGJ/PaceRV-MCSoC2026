@@ -1,0 +1,25 @@
+{
+  "title": "Memory Admission and Result-Retention Sizing in an RV32IMC FPGA Soft Processor",
+  "venue": "MCSoC 2026",
+  "paper_id": "1571364599",
+  "status": "accepted",
+  "authors": [
+    "Yihang Dai",
+    "Shuyu Xu",
+    "Yinfeng Zhou",
+    "Chenglei Peng"
+  ],
+  "camera_ready_pdf_sha256": "86f686fb582fcf930489f658d16bb5c54c9b3358f6e0beafedf74f9ffe358a53",
+  "camera_ready_tex_sha256": "88d4ca9d332e0661ae91e7497e1e0df602674e3a5c6427a06946902a42c941a3",
+  "hardware_repository": "https://github.com/BXSYGJ/PaceRV",
+  "hardware_commit": "b3ff0f886bb878d8ebac44366f3182eb6cbb5241",
+  "hardware_tag": "v1.0.0",
+  "artifact_repository": "https://github.com/BXSYGJ/PaceRV-MCSoC2026",
+  "historical_names": {
+    "H3": "PaceRV",
+    "E0": "registered requests",
+    "E1": "early requests",
+    "owner": "dynamic prepared multiplication",
+    "lifetime": "validity window"
+  }
+}

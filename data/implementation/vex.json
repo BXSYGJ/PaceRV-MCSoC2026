@@ -1,0 +1,116 @@
+{
+  "schema": "geometry-control-external-owner-pair-closure/v1",
+  "status": "completed",
+  "closed_utc": "2026-10-08T19:30:19.679368+00:00",
+  "source_commit": "680756065e9e6fc50d8c3d6c58191a16e867d822",
+  "selected_geometry_control": "historical_geom_imc_ex_p1",
+  "common_clock_hz": 145125000,
+  "new_full_embench_trials": 152,
+  "new_fresh_full_coremark_trials": 4,
+  "geometry_control_geomean_vex_over_h3_cycles": 1.0613568214980593,
+  "coremark_performance_native_cycles": 2187773523,
+  "coremark_per_mhz_from_native_cycles": 2.7425142213863425,
+  "physical_resources": {
+    "CLMA": {
+      "FF": 1836,
+      "LUT": 3254
+    },
+    "CLMS": {
+      "FF": 477,
+      "LUT": 898
+    },
+    "physical_LUT": 4152,
+    "FF": 2313,
+    "DRM": 25.0,
+    "APM": 4.0,
+    "GPLL": 1.0,
+    "LUT_metric": "Final post-route CLMA LUT plus CLMS LUT; distributed RAM is not added again",
+    "DRM_metric": "Native vendor utilization units, without conversion to a guessed BRAM capacity"
+  },
+  "physical_setup_wns_ns": 0.474,
+  "physical_populated_checks_passed": 10,
+  "external_stage_conditioned_aggregate": {
+    "mem": {
+      "control": 8277087,
+      "taken": 4184069,
+      "surviving_taken_corrections": 1146834,
+      "additional_nontaken_corrections": 407627,
+      "additional_nonbranch_corrections": 0,
+      "baseline_younger_slots": 8348135,
+      "survivor_baseline_younger_slots": 2288740,
+      "q_survival": 0.27409538418223983,
+      "p_removal": 0.7259046158177602
+    },
+    "ex": {
+      "control": 8277087,
+      "taken": 4184069,
+      "surviving_taken_corrections": 1137475,
+      "additional_nontaken_corrections": 410910,
+      "additional_nonbranch_corrections": 0,
+      "baseline_younger_slots": 4183916,
+      "survivor_baseline_younger_slots": 1137358,
+      "q_survival": 0.271858566385975,
+      "p_removal": 0.7281414336140251
+    },
+    "geomean_earlier_resolution_reduction_p0": 0.04732179237672429,
+    "geomean_earlier_resolution_reduction_p1": 0.021050499895555075
+  },
+  "evidence_receipts": {
+    "PROTOCOL.md": {
+      "path": "archived-workstation-reference",
+      "sha256": "a5eba39f9e3bc2b17170e337dcb5750b27c6e37a01ef9b2a411dd2b5658df9d6"
+    },
+    "CONFIGURATION_SNAPSHOT.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "30a871347c74cc60ad9ac1323ff04fbfa0c2c010f324be3f0e12604b63d8a701"
+    },
+    "FULL_EMBENCH_RAW_AUDIT.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "9762bc8f63680c292203f4bff670e4023d598de366bcfa24128e5e96bc05975e"
+    },
+    "FULL_COREMARK_RAW_AUDIT.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "1032a6d272e9972868ca2f6b8fdd50728070442ebd9cda5ed3111de35219d5b4"
+    },
+    "GEOMETRY_COMPARISON.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "829d2b0b40f65aff2dfa4319c1cbe95d2d9944a2fa32c1afefbac3c8df45006c"
+    },
+    "EXTERNAL_PAIR_RESULTS.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "dec10af5e2e8b85da8392d9a40ac9d02481411ba949f2abdc120bff1f060df91"
+    },
+    "OWNER_INTERVAL_COUNTEREXAMPLES.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "94dfe925d4d9ce095126f411aafc8256f47f0bb57c2961563c3514d3480a4b08"
+    },
+    "H3_BASELINE_PROVENANCE_CHECK.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "de8f757ce6e6b30be4cc8b1659c4cbd4d68e3092e093a38bd56cdd40648395b3"
+    },
+    "H3_BASE19_COHORT_CHECK.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "d22dd244ee6468e104ef77569d38508564c119c0a64cd1c32647d0f38d7bdf8b"
+    },
+    "PHYSICAL_RESULTS.json": {
+      "path": "archived-workstation-reference",
+      "sha256": "d2924466273ea5747856c200ee78b7e60256041e85d6daa7cc84e6104f136c47"
+    },
+    "RESULTS.md": {
+      "path": "archived-workstation-reference",
+      "sha256": "ffe6a80009f25a65b25ed52115842fb32fe7c6b8a1b4a95bf316749a519eb2e0"
+    }
+  },
+  "finalizer_sha256": "c01abf5de865c69f123670cfec4bcbe6a9b2f864fa1c9d8edb58f45f3b700cc5",
+  "excluded_coremark_diagnostics": "Interrupted overlapping-run logs are preserved and marked invalid; accepted CoreMark values use four fresh task-locked trials only.",
+  "retained_h3_provenance_scope": "The baseline log hash equals the exact original prefix ending at EVENTS, rather than the full log with its trailing RETIREMENT_WINDOW diagnostic. Original prefixes, current full diagnostic logs and trailing records are separately bound; original evidence is unchanged.",
+  "claim_scope": "Complete geometry-matched control and independent pre-existing branch-pair owner diagnostic; stage-conditioned removal is separate from measured cycles and local overlap intervals.",
+  "fairness_limits": [
+    "Vex write-through/nonallocating stores versus H3 write-back/allocating stores",
+    "Native replacement and cache pipeline differ",
+    "Single-word Vex instruction delivery versus H3 paired delivery/predecode",
+    "Complete-system results do not isolate one microarchitecture mechanism"
+  ],
+  "board_measurement": false,
+  "canonical_manuscript_edited": false
+}

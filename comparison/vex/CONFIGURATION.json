@@ -1,0 +1,136 @@
+{
+  "configuration": "historical_geom_imc_ex_p1",
+  "upstream_label": "historical",
+  "upstream_commit": "680756065e9e6fc50d8c3d6c58191a16e867d822",
+  "source_generator": "GenFullNoMmuMaxPerf",
+  "isa": "RV32IMC",
+  "icache_bytes": 16384,
+  "dcache_bytes": 2048,
+  "line_bytes": 16,
+  "ways": 2,
+  "prediction": "DYNAMIC_TARGET",
+  "history_entries": 256,
+  "regfile": "SYNC",
+  "early_branch": true,
+  "branch_stage": "EX",
+  "early_shifter": true,
+  "injector_stage": true,
+  "feature_arm": "both",
+  "matched_csr": true,
+  "cache_monitor": true,
+  "cache_error_fix": true,
+  "source_pin_file": "archived-workstation-reference",
+  "hardware_config_hex": "56455801",
+  "rtl_directory": "archived-workstation-reference",
+  "adaptations": [
+    "reset vector 0",
+    "uncached region outside low 64 KiB",
+    "compressed decode and required injector stage",
+    "passive FormalPlugin trace with cached-memory field observations",
+    "explicit H3 machine CSR services and conditional CSR compatibility patch",
+    "accepted native I/D cache hit and stuck-stage pulse outputs with H3 MMIO counters",
+    "common I-cache correction: final-beat refill error cannot poison the next line"
+  ],
+  "csr_plugin_fields": {
+    "catchIllegalAccess": true,
+    "mvendorid": 0,
+    "marchid": 0,
+    "mimpid": 0,
+    "mhartid": 0,
+    "misaExtensionsInit": 4356,
+    "misaAccess": "READ_ONLY",
+    "mtvecAccess": "READ_WRITE",
+    "mtvecInit": 0,
+    "mepcAccess": "READ_WRITE",
+    "mscratchGen": true,
+    "mcauseAccess": "READ_WRITE",
+    "mbadaddrAccess": "READ_WRITE",
+    "mcycleAccess": "READ_WRITE",
+    "minstretAccess": "READ_WRITE",
+    "ucycleAccess": "READ_ONLY",
+    "uinstretAccess": "READ_ONLY",
+    "utimeAccess": "READ_ONLY",
+    "wfiGenAsWait": false,
+    "wfiGenAsNop": true,
+    "ecallGen": true,
+    "ebreakGen": true,
+    "xtvecModeGen": true,
+    "userGen": false,
+    "supervisorGen": false,
+    "h3Matched": true
+  },
+  "generator_sha256": "4eb70b6054fa546a9601952f299f58ea5407880eab3e97221e90c9d8743a3343",
+  "generator_changes": [
+    {
+      "name": "generator object",
+      "before": "object GenFullNoMmuMaxPerf extends App",
+      "after": "object GenerateFeaturesHistoricalImcExBothIcfix extends App"
+    },
+    {
+      "name": "PC reset vector",
+      "before": "resetVector = 0x80000000l",
+      "after": "resetVector = 0x00000000l"
+    },
+    {
+      "name": "native I bus reset vector",
+      "before": "new IBusCachedPlugin(",
+      "after": "new IBusCachedPlugin(\n          resetVector = 0x00000000l,"
+    },
+    {
+      "name": "RVC and optional I monitor",
+      "before": "prediction = DYNAMIC_TARGET,",
+      "after": "prediction = DYNAMIC_TARGET,\n          compressedGen = true,\n          injectorStage = true,\n          monitorGen = true,"
+    },
+    {
+      "name": "low 64 KiB cached region",
+      "before": "ioRange      = _(31 downto 28) === 0xF",
+      "after": "ioRange      = _(31 downto 16) =/= 0"
+    },
+    {
+      "name": "EX branch stage",
+      "before": "earlyBranch = false,",
+      "after": "earlyBranch = true,"
+    },
+    {
+      "name": "explicit H3 CSR service configuration",
+      "before": "CsrPluginConfig.small",
+      "after": "CsrPluginConfig(\n          catchIllegalAccess = true,\n          mvendorid = 0,\n          marchid = 0,\n          mimpid = 0,\n          mhartid = 0,\n          misaExtensionsInit = 4356,\n          misaAccess = CsrAccess.READ_ONLY,\n          mtvecAccess = CsrAccess.READ_WRITE,\n          mtvecInit = 0,\n          mepcAccess = CsrAccess.READ_WRITE,\n          mscratchGen = true,\n          mcauseAccess = CsrAccess.READ_WRITE,\n          mbadaddrAccess = CsrAccess.READ_WRITE,\n          mcycleAccess = CsrAccess.READ_WRITE,\n          minstretAccess = CsrAccess.READ_WRITE,\n          ucycleAccess = CsrAccess.READ_ONLY,\n          uinstretAccess = CsrAccess.READ_ONLY,\n          utimeAccess = CsrAccess.READ_ONLY,\n          wfiGenAsWait = false,\n          wfiGenAsNop = true,\n          ecallGen = true,\n          ebreakGen = true,\n          xtvecModeGen = true,\n          userGen = false,\n          supervisorGen = false,\n          h3Matched = true\n        )"
+    },
+    {
+      "name": "trace and optional D monitor",
+      "before": "new YamlPlugin(\"cpu0.yaml\")",
+      "after": "archived-workstation-reference"
+    },
+    {
+      "name": "output directory",
+      "before": "SpinalVerilog(cpu())",
+      "after": "archived-workstation-reference"
+    },
+    {
+      "name": "I cache geometry",
+      "after": "16384 bytes, 2 ways, 16-byte line"
+    },
+    {
+      "name": "D cache geometry",
+      "after": "2048 bytes, 2 ways, 16-byte line"
+    },
+    {
+      "name": "Prediction factorial",
+      "after": "DYNAMIC_TARGET"
+    }
+  ],
+  "generation_status": "generated",
+  "rtl_sha256": "1597c073d0f84b25e9daaefd5c2461fd9cb39ec9cfc90f87bcd1ca9f37739ed5",
+  "geometry_control": true,
+  "prediction_factor": 1,
+  "observation_plugin_sha256": "303fb9167bffa8d55036b09472adf07d39964e3b1b95e5f401cef40770b47fca",
+  "observation_scope": "Passive owner tags sampled at branch-stage firing and normal retirement; unused physical observer logic must be pruned",
+  "fairness_limits": [
+    "Native write-through/nonallocating stores versus H3 write-back/write-allocate",
+    "Native cache pipeline and 32-bit instruction response versus H3 pair delivery/predecode",
+    "Native replacement differs from H3 two-way LRU",
+    "Exact D-cache geometry successfully elaborates with StaticMemoryTranslatorPlugin"
+  ],
+  "framework_sha256": "7888116517991a3ccdcf703769673a3ebda6bdc52136eb813f1180ec969883c6",
+  "log_sha256": "50e4c4f4473c57e64bb193b479116eb01c39343bdcd8100628d41756ed9d4279"
+}

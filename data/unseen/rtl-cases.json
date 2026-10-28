@@ -1,0 +1,902 @@
+[
+  {
+    "case": "bit67/E0/K1/riscv-matmul16",
+    "service": "bit67",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "1",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E0/K1/riscv-median400",
+    "service": "bit67",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "1",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E0/K1/riscv-qsort2048",
+    "service": "bit67",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "1",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E0/K1/riscv-vvadd300",
+    "service": "bit67",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "1",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit67/E0/K2/riscv-matmul16",
+    "service": "bit67",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "2",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E0/K2/riscv-median400",
+    "service": "bit67",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "2",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E0/K2/riscv-qsort2048",
+    "service": "bit67",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "2",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E0/K2/riscv-vvadd300",
+    "service": "bit67",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "2",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit67/E0/K3/riscv-matmul16",
+    "service": "bit67",
+    "E": 0,
+    "K": 3,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "3",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-matmul16",
+    "service": "bit67",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "0",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-median400",
+    "service": "bit67",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "0",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-qsort2048",
+    "service": "bit67",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "0",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E0/Kinf/riscv-vvadd300",
+    "service": "bit67",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "0",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit67/E1/K1/riscv-matmul16",
+    "service": "bit67",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "1",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E1/K1/riscv-median400",
+    "service": "bit67",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "1",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E1/K1/riscv-qsort2048",
+    "service": "bit67",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "1",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E1/K1/riscv-vvadd300",
+    "service": "bit67",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "1",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit67/E1/K2/riscv-matmul16",
+    "service": "bit67",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "2",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E1/K2/riscv-median400",
+    "service": "bit67",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "2",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E1/K2/riscv-qsort2048",
+    "service": "bit67",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "2",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E1/K2/riscv-vvadd300",
+    "service": "bit67",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "2",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-matmul16",
+    "service": "bit67",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "0",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-median400",
+    "service": "bit67",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "0",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-qsort2048",
+    "service": "bit67",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "0",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit67/E1/Kinf/riscv-vvadd300",
+    "service": "bit67",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "0",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E0/K1/riscv-matmul16",
+    "service": "bit89",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "1",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E0/K1/riscv-median400",
+    "service": "bit89",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "1",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E0/K1/riscv-qsort2048",
+    "service": "bit89",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "1",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E0/K1/riscv-vvadd300",
+    "service": "bit89",
+    "E": 0,
+    "K": 1,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "1",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E0/K2/riscv-matmul16",
+    "service": "bit89",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "2",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E0/K2/riscv-median400",
+    "service": "bit89",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "2",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E0/K2/riscv-qsort2048",
+    "service": "bit89",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "2",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E0/K2/riscv-vvadd300",
+    "service": "bit89",
+    "E": 0,
+    "K": 2,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "2",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E0/K3/riscv-matmul16",
+    "service": "bit89",
+    "E": 0,
+    "K": 3,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "3",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-matmul16",
+    "service": "bit89",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "0",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-median400",
+    "service": "bit89",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "0",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-qsort2048",
+    "service": "bit89",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "0",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E0/Kinf/riscv-vvadd300",
+    "service": "bit89",
+    "E": 0,
+    "K": 0,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "0",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E1/K1/riscv-matmul16",
+    "service": "bit89",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "1",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E1/K1/riscv-median400",
+    "service": "bit89",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "1",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E1/K1/riscv-qsort2048",
+    "service": "bit89",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "1",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E1/K1/riscv-vvadd300",
+    "service": "bit89",
+    "E": 1,
+    "K": 1,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "1",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E1/K2/riscv-matmul16",
+    "service": "bit89",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "2",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E1/K2/riscv-median400",
+    "service": "bit89",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "2",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E1/K2/riscv-qsort2048",
+    "service": "bit89",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "2",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E1/K2/riscv-vvadd300",
+    "service": "bit89",
+    "E": 1,
+    "K": 2,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "2",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-matmul16",
+    "service": "bit89",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-matmul16",
+    "arguments": [
+      "20000000",
+      "390",
+      "3c4",
+      "0",
+      "riscv-matmul16",
+      "39a",
+      "39e",
+      "3a2",
+      "3a6"
+    ]
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-median400",
+    "service": "bit89",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-median400",
+    "arguments": [
+      "20000000",
+      "59c",
+      "5d4",
+      "0",
+      "riscv-median400",
+      "5a6",
+      "5aa",
+      "5ae",
+      "5b2"
+    ]
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-qsort2048",
+    "service": "bit89",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-qsort2048",
+    "arguments": [
+      "20000000",
+      "41e",
+      "456",
+      "0",
+      "riscv-qsort2048",
+      "428",
+      "42c",
+      "430",
+      "434"
+    ]
+  },
+  {
+    "case": "bit89/E1/Kinf/riscv-vvadd300",
+    "service": "bit89",
+    "E": 1,
+    "K": 0,
+    "workload": "riscv-vvadd300",
+    "arguments": [
+      "20000000",
+      "2b8",
+      "2f0",
+      "0",
+      "riscv-vvadd300",
+      "2c2",
+      "2c6",
+      "2ca",
+      "2ce"
+    ]
+  }
+]

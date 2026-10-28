@@ -1,0 +1,5 @@
+K,Khat,Khat_meets99,actual_capture,actual_extra_fast,actual_saved_cycles,baseline_fast_missing,cycle_capture,cycle_error_actual_minus_prediction,full_actual_fast_owners,full_predicted_fast_owners,opportunity_error_actual_minus_prediction,predecessor_below99,predicted_capture,predicted_extra_fast,predicted_fast_but_slow_or_missing,predicted_saved_cycles,status,unbounded_saved_cycles,unexpected_fast
+1,12,,0.0,0,0,0,0.0,0,128000,128000,0,,0.0,0,0,0,passed_execution,187197,0
+11,12,,0.9825,183924,183921,0,0.9824997195467876,-2,316629,316629,0,True,0.9825,183924,0,183923,passed_execution,187197,0
+12,12,True,0.9908333333333333,185484,185481,0,0.9908331864292697,-2,318248,318248,0,,0.9908333333333333,185484,0,185483,passed_execution,187197,0
+13,12,,0.9958333333333333,186420,186417,0,0.9958332665587589,-2,319199,319199,0,,0.9958333333333333,186420,0,186419,passed_execution,187197,0

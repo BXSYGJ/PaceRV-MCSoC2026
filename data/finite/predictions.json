@@ -1,0 +1,1111 @@
+{
+  "schema": "prospective-numeric-prediction/v1",
+  "created_utc": "2026-10-08T18:06:27.931072+00:00",
+  "status": "frozen_before_finite_validation",
+  "protocol_sha256": "3d86b09c2474a1c98468398466d3160e2d85f20a49b5be16087f8530c8b9e0d9",
+  "aggregate": {
+    "0": {
+      "unbounded_age_histogram": {
+        "2": 370690,
+        "1": 674539,
+        "18": 3273,
+        "43": 1,
+        "29": 1099
+      },
+      "unbounded_local_weight_histogram": {
+        "2": 370680,
+        "1": 674516,
+        "18": 3273,
+        "43": 1,
+        "29": 1099
+      },
+      "incremental_opportunities": 375063,
+      "predicted_cycle_saving": 375053,
+      "opportunity_K_star": 18,
+      "cycle_K_star": 18,
+      "maximum_profile_age": 43,
+      "validation_K_values": [
+        1,
+        17,
+        18,
+        43
+      ],
+      "predicted_at_K": {
+        "1": {
+          "extra_fast_consumes": 0,
+          "saved_cycles_local": 0
+        },
+        "17": {
+          "extra_fast_consumes": 370690,
+          "saved_cycles_local": 370680
+        },
+        "18": {
+          "extra_fast_consumes": 373963,
+          "saved_cycles_local": 373953
+        },
+        "43": {
+          "extra_fast_consumes": 375063,
+          "saved_cycles_local": 375053
+        }
+      }
+    },
+    "1": {
+      "unbounded_age_histogram": {
+        "1": 1045229,
+        "17": 3273,
+        "43": 1,
+        "28": 1099
+      },
+      "unbounded_local_weight_histogram": {
+        "1": 1045196,
+        "17": 3273,
+        "43": 1,
+        "28": 1099
+      },
+      "incremental_opportunities": 4373,
+      "predicted_cycle_saving": 4373,
+      "opportunity_K_star": 28,
+      "cycle_K_star": 28,
+      "maximum_profile_age": 43,
+      "validation_K_values": [
+        1,
+        27,
+        28,
+        43
+      ],
+      "predicted_at_K": {
+        "1": {
+          "extra_fast_consumes": 0,
+          "saved_cycles_local": 0
+        },
+        "27": {
+          "extra_fast_consumes": 3273,
+          "saved_cycles_local": 3273
+        },
+        "28": {
+          "extra_fast_consumes": 4372,
+          "saved_cycles_local": 4372
+        },
+        "43": {
+          "extra_fast_consumes": 4373,
+          "saved_cycles_local": 4373
+        }
+      }
+    }
+  },
+  "workload_profiles": [
+    {
+      "E": 0,
+      "workload": "aha-mont64",
+      "ages": {
+        "2": 3,
+        "1": 14633
+      },
+      "weighted_ages": {
+        "2": 3,
+        "1": 14633
+      },
+      "admitted": 14674,
+      "retired": 14674,
+      "cancelled": 0,
+      "rows": 58701,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "crc32",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "depthconv",
+      "ages": {
+        "1": 8195,
+        "2": 8195
+      },
+      "weighted_ages": {
+        "1": 8195,
+        "2": 8195
+      },
+      "admitted": 16401,
+      "retired": 16401,
+      "cancelled": 0,
+      "rows": 73814,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "edn",
+      "ages": {
+        "1": 416105,
+        "2": 102295
+      },
+      "weighted_ages": {
+        "1": 416099,
+        "2": 102291
+      },
+      "admitted": 524802,
+      "retired": 524802,
+      "cancelled": 0,
+      "rows": 2202756,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "huffbench",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "matmult-int",
+      "ages": {
+        "18": 3198,
+        "43": 1,
+        "2": 183222,
+        "1": 124800,
+        "29": 779
+      },
+      "weighted_ages": {
+        "18": 3198,
+        "43": 1,
+        "2": 183221,
+        "1": 124798,
+        "29": 779
+      },
+      "admitted": 320000,
+      "retired": 320000,
+      "cancelled": 0,
+      "rows": 1546125,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "md5sum",
+      "ages": {
+        "1": 66
+      },
+      "weighted_ages": {
+        "1": 66
+      },
+      "admitted": 67,
+      "retired": 67,
+      "cancelled": 0,
+      "rows": 268,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "nettle-aes",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "nettle-sha256",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "nsichneu",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "picojpeg",
+      "ages": {
+        "2": 1740,
+        "1": 47040,
+        "29": 320,
+        "18": 75
+      },
+      "weighted_ages": {
+        "2": 1740,
+        "1": 47040,
+        "29": 320,
+        "18": 75
+      },
+      "admitted": 59010,
+      "retired": 59010,
+      "cancelled": 0,
+      "rows": 250404,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "qrduino",
+      "ages": {
+        "1": 47635,
+        "2": 25255
+      },
+      "weighted_ages": {
+        "1": 47620,
+        "2": 25250
+      },
+      "admitted": 87494,
+      "retired": 87493,
+      "cancelled": 1,
+      "rows": 380290,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "sglib-combined",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "slre",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "statemate",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "tarfind",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 1,
+      "retired": 1,
+      "cancelled": 0,
+      "rows": 4,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "ud",
+      "ages": {
+        "2": 49980,
+        "1": 16065
+      },
+      "weighted_ages": {
+        "2": 49980,
+        "1": 16065
+      },
+      "admitted": 66088,
+      "retired": 66088,
+      "cancelled": 0,
+      "rows": 314357,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "wikisort",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 0,
+      "workload": "xgboost",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "aha-mont64",
+      "ages": {
+        "1": 14636
+      },
+      "weighted_ages": {
+        "1": 14636
+      },
+      "admitted": 14674,
+      "retired": 14674,
+      "cancelled": 0,
+      "rows": 58696,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "crc32",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "depthconv",
+      "ages": {
+        "1": 16390
+      },
+      "weighted_ages": {
+        "1": 16390
+      },
+      "admitted": 16401,
+      "retired": 16401,
+      "cancelled": 0,
+      "rows": 65616,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "edn",
+      "ages": {
+        "1": 518400
+      },
+      "weighted_ages": {
+        "1": 518390
+      },
+      "admitted": 524802,
+      "retired": 524802,
+      "cancelled": 0,
+      "rows": 2099208,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "huffbench",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "matmult-int",
+      "ages": {
+        "17": 3198,
+        "43": 1,
+        "1": 308022,
+        "28": 779
+      },
+      "weighted_ages": {
+        "17": 3198,
+        "43": 1,
+        "1": 308019,
+        "28": 779
+      },
+      "admitted": 320000,
+      "retired": 320000,
+      "cancelled": 0,
+      "rows": 1354111,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "md5sum",
+      "ages": {
+        "1": 66
+      },
+      "weighted_ages": {
+        "1": 66
+      },
+      "admitted": 67,
+      "retired": 67,
+      "cancelled": 0,
+      "rows": 268,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "nettle-aes",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "nettle-sha256",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "nsichneu",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "picojpeg",
+      "ages": {
+        "1": 48780,
+        "28": 320,
+        "17": 75
+      },
+      "weighted_ages": {
+        "1": 48780,
+        "28": 320,
+        "17": 75
+      },
+      "admitted": 59010,
+      "retired": 59010,
+      "cancelled": 0,
+      "rows": 247844,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "qrduino",
+      "ages": {
+        "1": 72890
+      },
+      "weighted_ages": {
+        "1": 72870
+      },
+      "admitted": 87494,
+      "retired": 87493,
+      "cancelled": 1,
+      "rows": 349976,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "sglib-combined",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "slre",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "statemate",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "tarfind",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 1,
+      "retired": 1,
+      "cancelled": 0,
+      "rows": 4,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "ud",
+      "ages": {
+        "1": 66045
+      },
+      "weighted_ages": {
+        "1": 66045
+      },
+      "admitted": 66088,
+      "retired": 66088,
+      "cancelled": 0,
+      "rows": 264352,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "wikisort",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    },
+    {
+      "E": 1,
+      "workload": "xgboost",
+      "ages": {},
+      "weighted_ages": {},
+      "admitted": 0,
+      "retired": 0,
+      "cancelled": 0,
+      "rows": 0,
+      "unretired_fast": 0
+    }
+  ],
+  "unbounded_output_sha256": {
+    "evidence/runs/E0Kinf/aha-mont64": {
+      "disassembly.log": "40c2360919adb1f7527551a98e169f256abdcd884874fec509ac82d2a65d4943",
+      "edge_samples.csv": "6d8f7325d2663182df3a712a8235c813347e138febc94ab714ee9103177e4405",
+      "firmware.bin": "c7e5db803781055b13e18679972f2b0ff5cfde47db765b4d8b3a4c994ef39fc0",
+      "firmware.elf": "afc23fbfd7bcb61fa7fe4eefdd3d5c587a29165b9b5fe3b4c619496a9546488a",
+      "firmware.hex": "a099ea93bfa1f0eb69537828f0636ca3b7557b38a0b0d15f511d9898662230f4",
+      "observation.json": "fa6217614d8862b0ad4a66159f657ebe834a154326cf40e6d0c81322ee2cd1ee",
+      "owner_events.csv": "c3ec70b64efe10315a764e828e9d3f57528cf40eafc8d023ed43bc8008c7de48",
+      "owner_samples.csv": "160cef939d4ea34737fda6f50a24525e411982b8281b33e84bcd6cc6625892ea",
+      "simulation.command.json": "c2c212f61bbc202f559afd3ce056956506c4f7643cae0b49b4fcad28a056beaa",
+      "simulation.log": "586e6443043f606c728bb62890440ae0e431c6c3ed5f6538f89c09b62e8478e4",
+      "uart.log": "1e50a524eeb0fc7117eaaf591ec5b994471a6b5fad4f327d90f9513ecfdb54fe"
+    },
+    "evidence/runs/E0Kinf/crc32": {
+      "disassembly.log": "b8e6aa8951bdb97e874ac8377c8624b0a5cdb414eeec828282df56f0b4a68ed7",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "421e3e0af48d646fbd0b32a2990b495bd0f0eec5f4a2a4986fe2f5c429c4189b",
+      "firmware.elf": "7b7e3d3d9ce15b67c939eeda6a20279f5934ee00596a2e17e7030e6ec90f5558",
+      "firmware.hex": "11a59f7e008f2914ea9175cfa4f17d40a948116f3f7ccaaea66ed2163e2bce4a",
+      "observation.json": "62c9056cb4bb2e5e5fbe83c556f8340ae175de9f4a410069a31060357e0f0ac9",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "935ecf2d2a1687cf77f48ae0c5c23c080c5e32c357bb689fef88b99ba6bc9b9d",
+      "simulation.command.json": "edcb2ecead61be502283bd750b85ad85a64fa6362ae28e537929ee0bccdfa338",
+      "simulation.log": "dba848e089beb18c8dddd4c2023b4b5806be268f9c5073d05c8d98e7bd07f62c",
+      "uart.log": "e99458fd9afea22867ce5688d20a8f4113060f240333b6fe0b287f594807dfb9"
+    },
+    "evidence/runs/E0Kinf/depthconv": {
+      "disassembly.log": "0aae6b5aabd9dd1a143de8ff4283bbb36e03de4be7d931dc86c5f3eb0b1d047e",
+      "edge_samples.csv": "348993e31468e67b345995b25a65224da8526a0ee4a1e5c257a8a1e907ce8ab7",
+      "firmware.bin": "963d846b86002926c5be2dc10c6e5d3e6d7a64911400272b43dcc803f7ed2620",
+      "firmware.elf": "46ef59403d4beb19fdd3abd81ad7dfb30c86c28a8f9ebffcacc00ae8306817c2",
+      "firmware.hex": "207cddf6ead6417b6ca0e76ebf419aeab5158e12b053ef4a954c80223aaf1987",
+      "observation.json": "3faa1f4554f47d1f2996fb951855acaabdc9968fecfab1ac2803b1c003f4b288",
+      "owner_events.csv": "2b93fcc3d9f239efbef8215a7d5a7ece37947f535b6626fae00ef3158487ff52",
+      "owner_samples.csv": "920b9394e2973e46c0e04125f4a5d7a13753c842f7307d7c4b48d0f52463cbc8",
+      "simulation.command.json": "6bca7e26fe0d6d670d64a50b5f2c13b1cf8d538e84e474fb367ed8aa3027c9f5",
+      "simulation.log": "12c393eb777e030116c47cada4dd7a22d0391c7d03ba97ed7aeb9005ce9871c7",
+      "uart.log": "3d6dc6282e8c52c2b5b86f16cff43f32e3200db418ee8ebe0fd603be1e84ae3a"
+    },
+    "evidence/runs/E0Kinf/edn": {
+      "disassembly.log": "b5de4f4cdc6ce72a11716e64a2d9d4076f123cc11e1c15ebbaa6901bc77f0466",
+      "edge_samples.csv": "5c69cfdbf5833f3ae7619adb1a65ab7e2f69870a913aa9c3abe43e17ccfcefa5",
+      "firmware.bin": "86d2938ab4b9a72841d4507918df5d507048f2ecb472a386ed3386fac4494e30",
+      "firmware.elf": "a2886480e725e88114b4411e4474823ac7892ae5988b998e9bfa1fb882d9ee50",
+      "firmware.hex": "8ffadabd6fcfab8ebdd6f3d8d91a40427aed310d8b01220a3d43c6c4c2f102fa",
+      "observation.json": "3c08b31ca42ca146527ba4f98ee862fdc229ab10c87da296571a4a6eb4159a19",
+      "owner_events.csv": "d1b6b7c022b90bcf47d20d5f40eddff0a88c0b757351c255d45731e9674b5862",
+      "owner_samples.csv": "005312eb800ffd6368ce6662a22cd0c61d30864a32e5bfadfca5b7d6964bde0c",
+      "simulation.command.json": "f758e00c0cd26d1c0985323528b2093e8525da9e4ea47b161aa9b78908dc4ec1",
+      "simulation.log": "b049ee2c57879213af48307129631632c2fd248cae0e21989dd13dba61c6ab05",
+      "uart.log": "3fb1c8e67c673bb04720e4e46d80928b86da4cee29468f8672dc8318694f8bb6"
+    },
+    "evidence/runs/E0Kinf/huffbench": {
+      "disassembly.log": "5f57856d4ca8cb0c9a04bfbb7aef88a63fab0fc7d6a27c29c2aefe905e1d653d",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "39d81248c9dc130be96214fa470b9ac543392c52a8b6c84a48cb9bc802d3f941",
+      "firmware.elf": "485123fcda57491fdc461a21e24e91d5c83ce297f86d7dd926067dd57df85d2e",
+      "firmware.hex": "8810879372c9c2bee93fa704801405135f0d4a1e1686699efb896549944a6357",
+      "observation.json": "9e4b960ba24e6577b3e89ac8522bf8c4d7823f059b4a40f8daa79279a84bcfd0",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "092dc4f3befc23b00e74b18db725e4ca6991861ec45cdd9767efb6ef28241738",
+      "simulation.log": "ee67785e43cf81a0088d961b5f642af0167ccc9490de7fab9b574360aa1b1fc3",
+      "uart.log": "9172429b55c2959d7a4796d896db119c11fd55a2a850bbf930aa5a71424e90ec"
+    },
+    "evidence/runs/E0Kinf/matmult-int": {
+      "disassembly.log": "56c031da6d5b45fe5c0018cbe1b72044e51b56fbe328a06206d757c4a4e7ca2f",
+      "edge_samples.csv": "42b2ad3856a24edc31b6f89a9ddbbc7c70ff88246da6f130cffec296c9ebb94f",
+      "firmware.bin": "57bc3937129c49f932b602ae58cf09c2af5e82fd8f528c8c549d92de06ca82fb",
+      "firmware.elf": "0d82fa736137918d132de624462535c9502aea47c79473165f236b0621d419e1",
+      "firmware.hex": "ef6b92c9586d261ff400b253e0ad66a439a2d18eeb7415c0000075c8e34dd669",
+      "observation.json": "f95b38dec0819da791b5add11936849c19bd741d252fa7a469ee8686b47e9f76",
+      "owner_events.csv": "4d607ff2babad0008afd5814d1719e1e163782cb2b18e73da2f22f1a575cd3f4",
+      "owner_samples.csv": "47af82b44df8b2fa106d4d6b5f6ac5d5e837f112e6924039e66897e4f7e24866",
+      "simulation.command.json": "b07b93769c24428733ca6240d9dee8940b17af420a379f371538f8d000ec2380",
+      "simulation.log": "00e3afe18aee6d8ae854c8f5b002b72727b555be8c310f17108a8ff511994285",
+      "uart.log": "5c17c537d1b394c7ec4c6a8bf1126764988fc8ae5a1c04f9a09716eb65cfb826"
+    },
+    "evidence/runs/E0Kinf/md5sum": {
+      "disassembly.log": "c5274101b7a85ce23d44d37b2bf28fac6f56a1b322bc36374f9cf4894fa2afd9",
+      "edge_samples.csv": "dadf353c4104efaccf3797ccaab252a5bcf01d1f85ed9b3c98a337e54cb9478b",
+      "firmware.bin": "c6f7a45a4266aeb507c78564cea3b1f8c0a387e6e1df3c098c15d3b89bc5e760",
+      "firmware.elf": "75608ecf6996b0082bca6a5f2937f81c574a4a33923f9ed45a11e19496f464ce",
+      "firmware.hex": "595cda3c39769f3873f6485535a045fc47c57fe8e1185cdada5ac86b5ed16d89",
+      "observation.json": "2b68c2287df55ccee16bf5850576098b9b22fa72a9cc602f2652b3cd1c5e3fa7",
+      "owner_events.csv": "fcc05fddac36b91b3eb697cbf4d21592d5d7ed8fd288026e32ae12e802e7fd63",
+      "owner_samples.csv": "6d0837c8ded276a81a97bd2e0c7cb34ca91828b482ca2bf2a9e05f526329f8a2",
+      "simulation.command.json": "519daffd49832b72e4128374c5bb7a1331dfd4bde5457ff15261e2a35319f108",
+      "simulation.log": "0773c69afa4c8e3d2864af27437e3f11f1fd9f8ee86cb5956b7b4019f0838e50",
+      "uart.log": "ee53b5e0a8c521daf7280dc3f638d034b86ff2be88d4f313fdcfb57e60d20089"
+    },
+    "evidence/runs/E0Kinf/nettle-aes": {
+      "disassembly.log": "4a9ae2b499efa8ee909fa2a9ebc3f7a6739a769aff6f0a73071d36d3abc18e27",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "654ea2ae3910d51f050dad4f5dce1abc3f69aedae89be1fd7f0b44bfd9a8d0af",
+      "firmware.elf": "e72e841ad2b5b82bce88d98df497728a248e00619b74fed2c8601736027de118",
+      "firmware.hex": "13e173040aa423b5b4a535205dd35e2ea1ecb97f73bdcf068fc0a5b155f84f63",
+      "observation.json": "a62e627172d87ebb6ab0cc6d0bc76cea963a1671520004a71d8bb2151b5dd06b",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "6aeae2b2174913e4c53d78142811787c1d1eabaf755efef0d375a7d3e6efa779",
+      "simulation.command.json": "108014b76b271d522439c7c7ec021257655d7d8b532e5c994f7e5fc6a4f28793",
+      "simulation.log": "0f706a37dee8bd65e83b49970e4c36b38cc84f7f42af16fb791e0845318fc645",
+      "uart.log": "ed2d838ed84509c5e5fdf08aabfad78775cbc0f2f379e835027987371c017303"
+    },
+    "evidence/runs/E0Kinf/nettle-sha256": {
+      "disassembly.log": "4bc71949baf944a3e40b1451bd26456d9f7bd7bc3ac3029b54a564d7004a78e1",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "4b82668e39b702b8cc1f5f4793a5c38d373c9eebaec2846954a908fe57f0aff5",
+      "firmware.elf": "92383c41775e7511849702fb979a45502dc0075cc93d35aee30351f172609c0b",
+      "firmware.hex": "95b70c47d03b9ae7fb5f911b1b0434bda0e902d18201eb1c341ab9aca89baad9",
+      "observation.json": "9d7c813937269c470a9b77d16af6f436766e5ab38536459ea41acb8d6ee11249",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "9dc58ea892f236ab403e7d42951697b07f63bfdd75bba02551349d330f46ca62",
+      "simulation.log": "395c0050e6e9ed3c4050063c36dce83ae8daea836cd1ab55a2a995074b010af2",
+      "uart.log": "f52f725d99e155d638725f5757929dabc049451030fc40ad20c8b0041a9c2296"
+    },
+    "evidence/runs/E0Kinf/nsichneu": {
+      "disassembly.log": "fe151f30ecb9f60e3dffd29459dacf307f8e2760939b2af2864c5a80cfe02569",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "c95c904f77f6c77139bf4f1b13c3defc863bbe4f91ce83354fd18f8a00ee86d1",
+      "firmware.elf": "661b5ee0734ea73571df3166063a77b37c713f5f2442faef39a209a7241050cc",
+      "firmware.hex": "d6b7c7349dee3b5ab95585dddf7afc0654696411b753cbf5f8cf7d3297bb8b94",
+      "observation.json": "3aef4b55916e9ed2aa0b32c2608965963bea2d3287e868444fd8d8d9386fd67e",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "bab280eb4fb9d39bb7169b6d207e956703c9c68023c97f262c38d9f97cf90e46",
+      "simulation.log": "4a37ae7763e420e07f8fef75d868d2b50f7055099a301dfbf5a43dfca3dbd001",
+      "uart.log": "57e5a4c6f502f06cc198b6a6d30d651dffa69b0a5796c4b667c8870cf5c648f1"
+    },
+    "evidence/runs/E0Kinf/picojpeg": {
+      "disassembly.log": "c0095ca065b343d5d1f55fd9510e9f8838905378db2cafdb4ee9685220f8b215",
+      "edge_samples.csv": "f1fe610f2e2d136abeb613150f849f64b480e20ec179c3a599b3db87f6b94e53",
+      "firmware.bin": "5630cd50f3a862c115758069764e3ab493f25e585dd71a2e6cbd35fbc660ef6f",
+      "firmware.elf": "02c9e3d17cc9a3c9cf906e275c299b370f5469a90ddcdda11f477dfb125ada11",
+      "firmware.hex": "80faed89a6130ac47c71a81b47166a9542228e4e64cff1a7c83b65611bc53d20",
+      "observation.json": "d92cb4bf21f74a2ef06a188f17e1465e4faf98d68baea4edb26d6c6a1d39c0c2",
+      "owner_events.csv": "547b511ff3cb410eea50b7ce6fddcf35d292d4d49c580b941a6c43bdc27ace0c",
+      "owner_samples.csv": "8b55bdbabcf495b17591fb5f89d2d6454bb9e515c358aa39da373bb5f93ebf4e",
+      "simulation.command.json": "38a11ec036b19060a53e6ca4b0534663075a9c3faf409ccf9fc836dbd39f2d57",
+      "simulation.log": "268b80132692853895de0ff685a68231d5021c714f1f1b816ec8ac717df535cc",
+      "uart.log": "073a98aa055f407d22f2f0b39d7aae5612666330eaa1434e9795d904c677fb1d"
+    },
+    "evidence/runs/E0Kinf/qrduino": {
+      "disassembly.log": "467e29b91f63fc4c7fe0dce736df6c6a9924cbce036e5535785d461920a66f63",
+      "edge_samples.csv": "eaa170f6bb580d6a298ae367c1c7766260644e55521f0f9a7b83d100f86cf70b",
+      "firmware.bin": "37c2598102c7dae65a1a4b81d744cf8f61c1574abba5f21e57ca65815d8e385d",
+      "firmware.elf": "e7a35821ffb052a568b2b711601146580aa8f46d70b69b276ca06cd60bf36538",
+      "firmware.hex": "b2f8e79224321593aacfb99cf89ee6849fb50900a7e58675f1cc30978fe29894",
+      "observation.json": "48bf607d6b05fa08792c1e1c866a5307db39779e5fe41d7b3b218641d7bb10fb",
+      "owner_events.csv": "3b9acdb32dfcebe4d0a847e37b31abcc48afad79bd2fe5472f16ab2503f81dc2",
+      "owner_samples.csv": "4b4ebc967e8e0d34aa6f30376dda821a4b656c817ec098b09ff7f055997fa51f",
+      "simulation.command.json": "593307f091d11f6ec9ef426d92f03f6887e3dd0c1accf3879bd45a514cec1c33",
+      "simulation.log": "61a54ec74fd159c9903346af8e7e3356c48143e3fac6805a05341e50308957e3",
+      "uart.log": "aa8f88ceebd5f7bdf06c0e2576a8115093c085b600f186d1237b3c4e2a0d8a68"
+    },
+    "evidence/runs/E0Kinf/sglib-combined": {
+      "disassembly.log": "ac5c71619ddd8f416bddd51ec493732cbbae5a34e58ad6d76e3348e34533751d",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "468f549f2214f1db32cae1ab056dd945264d7cc908159839305c66e9fafb670e",
+      "firmware.elf": "656690533c1cc2fc3bfdf447f485744164f84f536e03bde6ecaf49ea9116524c",
+      "firmware.hex": "5cc552ab89753efe9395eff0eb1cb86b050a0f6032dccacda4e0598515f1e50f",
+      "observation.json": "eba747ec1ff681c5976293972402779cb06746834ab79ac401708404fd82eda6",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "8131a3deb2161e637cb5baad87cfe3969868d5eebedda93eff982ff27d4e7c2d",
+      "simulation.command.json": "ef330bd3ade4e5d313bfe0a3cc8dd944e41b388f50315599461c24fdd1489b16",
+      "simulation.log": "0929a7bfe7670044174faa66ad23e60cd80e56a52a35b6ac92e052f08bdb23a5",
+      "uart.log": "576d96b5196592af2579cb5ceee279c0883f052e901bdfd09c3108af51aa5f19"
+    },
+    "evidence/runs/E0Kinf/slre": {
+      "disassembly.log": "e45737422c61f4fa8da3179d8cf1af5e4dde426e7d20e1dca6888e9332149d0a",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "1c56f0edfe589be0c5db2b36fc02f7737b65b8835bae56b4d757b9b021616d0e",
+      "firmware.elf": "73231158c587dd381ec596ac8f8e5796f26fdbe3245130d4b181cb04b2b7a602",
+      "firmware.hex": "cecd3830af63cfc23d8e777cbaf9da3dd6219c91b0f5d04f88cb3db6f9a9b2c7",
+      "observation.json": "76fa0c397d65fd23c32a1c9e217d098266a38613ad45d451dbfbf957c8a9c93a",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "84836a4fb12e3ba86c38dd093eeae990c926ba30ea1d610fdd47f2c8cb4c8959",
+      "simulation.log": "e515408645183e3eabe272e07c747a8fb32c5076cd2c50583987efe4224c7afa",
+      "uart.log": "abe8da81f312c9a860c911fa4aa643b23758aa7cfacb384b4dd48d88f7f549ad"
+    },
+    "evidence/runs/E0Kinf/statemate": {
+      "disassembly.log": "90c84d2398ccc66a11c621365a59108794b2b553d18c7164a58781362b7dbca9",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "2710365053bc0e9aa81108c1aca550bdb6074ef8482fe12a9ffc853bff1e8860",
+      "firmware.elf": "f8d58f4f62cfdeabbf33aef6c0d21c7d5aec8813a3d8e2a5da8e2a199fb19251",
+      "firmware.hex": "f2bd2b471085907bcc6a6dbc05b336bc17ce2cf5429e3f92cc92969f08987078",
+      "observation.json": "898e74817b4e13f3b86a13882ab576f9ae42afcf155134a660158e16ad010194",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "9aa8f0f3d1609dd8b8b09c7d742714f409bea1e823d463efe06cb16358531390",
+      "simulation.log": "ad872dd1cbfeb525944abb7c7ee3db6039ee2edecbc2cc49d14634cd017ed1a8",
+      "uart.log": "6502467088e654eb426568cfb96841d1fcdbffa99bdd756a5c47342070edb578"
+    },
+    "evidence/runs/E0Kinf/tarfind": {
+      "disassembly.log": "aba0b9fed2ac52694951e6f9a581428fc0a587046ace9312757334f19635dc71",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "459dbc0c1b605b1fd8c2b2f39d7fa0d3dc29916fb9506444d1d865c933cb54a6",
+      "firmware.elf": "d90c58d8eae4a067caafce1c79b2f1ae0c3a88c99951fa47be361e632ce2ee58",
+      "firmware.hex": "a438e750871e29c1f4fc2c5b5005e4e9bcb4bdc7de4fa2ba3afb1d3d7933a2dc",
+      "observation.json": "1d3f867cf41f7eb878bd36fb1961cc740cfc8375c63d0ec05e54e6ffce857266",
+      "owner_events.csv": "d9905e5cc98be09191236c9a4a91f92e96f1d25b7581e2769ccdcfddedb1b30d",
+      "owner_samples.csv": "b4dd840b0de7b151adb8af4a92affa014ee872ad676c0be3fdd36c1e14f6417d",
+      "simulation.command.json": "f63f1d74a55d88c89d23b62821921f30b30520a019f60f83d2a7d170ba832f15",
+      "simulation.log": "6de301f9c7d92b15a41920107c327505348ed118e4db3172337e58083e08921a",
+      "uart.log": "f334ccb081ee8877d4eaf56e76e69da9f7460315cd4ad721f9dd798ae4d0c227"
+    },
+    "evidence/runs/E0Kinf/ud": {
+      "disassembly.log": "ae794c7b7c3f0df1b1d7d7a41f46fbb925388a25c6948873431076f8ba213eaa",
+      "edge_samples.csv": "92a3a7b93a148a1c102aeea257c7bb8d45ecd33c609fe8a6797064eefdfa83c7",
+      "firmware.bin": "be67d2f0fce326241371fb0d618d3628ea5fed5b1b7f7ea99be1b5fdad3f7334",
+      "firmware.elf": "b32f31093bc25113302bb1995d96ec814f59dcaf7d6272af3bba3df33171f2c5",
+      "firmware.hex": "7ccfdf30ecc8b05cc989d3ffb89f2d112c611bd4e050bac7e4564a8cfed5bf45",
+      "observation.json": "167bc7ac0a45c1e72058b12c70feaa98ca7d965a1e3bf6108f52dc7bdb67fc1f",
+      "owner_events.csv": "d279f0c23658799905eff083fba76067da01f14258938752edcfc298cd9c2b87",
+      "owner_samples.csv": "2fa901a778cefe19c26d99fff76fd2be4ada4fd912c4e50c08c3a47483fdbf5b",
+      "simulation.command.json": "a08f4f2cd852b9fa2448e349f5ad6d459c9b7cee284b3dacefcebae4abc9c383",
+      "simulation.log": "2c39876e5732d4fde8be565e838f2be4eb5b9fb76f6cf87b3398334725586c19",
+      "uart.log": "db3ee1c3d34c7696e05cf92ab9bd99bfd9dae469d639e9b3d07928fafdc8845a"
+    },
+    "evidence/runs/E0Kinf/wikisort": {
+      "disassembly.log": "218d5ca96ea68aa4c828e1b8a178d25aeff83ccea3a509aa3152131c2974e313",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "4ef62d2749f6400d0a47cb647710989eaeefb0680babff5e92a1ed9bb0bded9f",
+      "firmware.elf": "f6e2cb0cc0588a0a9ef98d43819a42acffca2131763229c5183b6c09dd498ac9",
+      "firmware.hex": "2bc0bbcbd36c9daf58f2c761837c6196d12bbc8115616c7f99cea2152be28659",
+      "observation.json": "a5836ec4eb157aded5b0e7cf46a405fec591bfabcf62005af1a9b78ca9329398",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "4297be510b63aa47d5a75d11ff653a68c609c237bd2727f76a44fbad9f237629",
+      "simulation.command.json": "6e06e12bf33a711786f6e52bd2513e79bd5ad2b908a624b0f43cfff871e2fcc9",
+      "simulation.log": "aed91ccff0b32d2b785cd1b24de2db575cf5e32e7b01d5c5ea833ee9c882b809",
+      "uart.log": "c35a2b37dcd986969077190809f86633c60a3d0bebdc5e141baf83f750d381fc"
+    },
+    "evidence/runs/E0Kinf/xgboost": {
+      "disassembly.log": "bd0dcc11ac83e4e5a55d878f4aeeb64573dff7f6272b369a00c76eaaaa8be6a7",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "fa947fdb62de7b7e61c12431852f61f3841ecd33c399c41dc985f47b8926f12a",
+      "firmware.elf": "0f0f814211d0deb9b9ddb1b91c38efa1b937ab3e53839be49ac483b22d7f9492",
+      "firmware.hex": "9185694753ef3095d76d6f5ae0c9ee25601dbdf59c0372b2fa35e529188df3b0",
+      "observation.json": "a106afd80ed80b64e88fc0c9161cb498b3a39f84029789a5682ed39b1b11414a",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "d99192400b1d899d26bd089ee6ebc4c26c657b5fd49e7c3d0da831b8e1bde47b",
+      "simulation.log": "3b73979c3452c410994848f61848e28c789139fee80619f4cd0c514d87cbc4ff",
+      "uart.log": "6667f081e10d0e1e19cb2590eb9c7d3f98421d94279d3febb8d292b858e3b33e"
+    },
+    "evidence/runs/E1Kinf/aha-mont64": {
+      "disassembly.log": "40c2360919adb1f7527551a98e169f256abdcd884874fec509ac82d2a65d4943",
+      "edge_samples.csv": "c2a84a39b1bf22941ed4804991a3ea9a2d960c68284be5b83ab1074fc2534334",
+      "firmware.bin": "c7e5db803781055b13e18679972f2b0ff5cfde47db765b4d8b3a4c994ef39fc0",
+      "firmware.elf": "afc23fbfd7bcb61fa7fe4eefdd3d5c587a29165b9b5fe3b4c619496a9546488a",
+      "firmware.hex": "a099ea93bfa1f0eb69537828f0636ca3b7557b38a0b0d15f511d9898662230f4",
+      "observation.json": "6c66e9ed84ebd62645400a25f96d3c2c494e04f8e9e967418993ca64dfe39c77",
+      "owner_events.csv": "dc6b589e239c801819e57ae7121632b6b606311b27ac8a4c2b551b7615f4a140",
+      "owner_samples.csv": "3c41918baa6a2f31482ba31f483e53c413a1cb16209845ed4c502c67e3c14cc9",
+      "simulation.command.json": "04398cfdc10aa90ac660c21db4b01e45b3f26cd988dc612fe0f6da26bfe26ed5",
+      "simulation.log": "374f87193a96b11e0bf2b190d8ce9ba7d2d153d5c68cd780c936698235aac69d",
+      "uart.log": "d04a43a4957f9b24269a4b7a62ed34a308305fd30efdaf0d89dcd0028f992f01"
+    },
+    "evidence/runs/E1Kinf/crc32": {
+      "disassembly.log": "b8e6aa8951bdb97e874ac8377c8624b0a5cdb414eeec828282df56f0b4a68ed7",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "421e3e0af48d646fbd0b32a2990b495bd0f0eec5f4a2a4986fe2f5c429c4189b",
+      "firmware.elf": "7b7e3d3d9ce15b67c939eeda6a20279f5934ee00596a2e17e7030e6ec90f5558",
+      "firmware.hex": "11a59f7e008f2914ea9175cfa4f17d40a948116f3f7ccaaea66ed2163e2bce4a",
+      "observation.json": "a3f3d1530e8cf0bdb418ef39aca0a721a7e625b519aff4278db930a8f60ac23e",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "daadd9f6de97ed11bcd899baf5cd44454f7575fa16cccc789c29e94bce9e1ebb",
+      "simulation.command.json": "4ea35df06271f4b69ade899bbad539b502a1469e0f62eba9f66b7df14dbd3716",
+      "simulation.log": "1ac7cc21b59f1bdedfdbbf77e8883eca7f7ed967c749b3d2039b451a35ef7e1e",
+      "uart.log": "edd716f37b894c1f4138a4ae373bfc842aac468ee6b4c10ac116b77ff1872d97"
+    },
+    "evidence/runs/E1Kinf/depthconv": {
+      "disassembly.log": "0aae6b5aabd9dd1a143de8ff4283bbb36e03de4be7d931dc86c5f3eb0b1d047e",
+      "edge_samples.csv": "d37de2979f320871cee7640b247b276ef17fe54413c74741b126985a2fc37f77",
+      "firmware.bin": "963d846b86002926c5be2dc10c6e5d3e6d7a64911400272b43dcc803f7ed2620",
+      "firmware.elf": "46ef59403d4beb19fdd3abd81ad7dfb30c86c28a8f9ebffcacc00ae8306817c2",
+      "firmware.hex": "207cddf6ead6417b6ca0e76ebf419aeab5158e12b053ef4a954c80223aaf1987",
+      "observation.json": "768b8feed019a8a892513b28c64965ac854ae28c726a4a713fbf84b5500a9bb2",
+      "owner_events.csv": "75f813e63735b65692f757fca89bb38f9e5f973c143421c5da490be4723313cf",
+      "owner_samples.csv": "1e663ed2ac41bc8383711b3a6333816f114b1636e81c4242bca8a7f288d3afeb",
+      "simulation.command.json": "1c8f1912be01099ab99fdad6b8b37d6023e8a4be33cd30df0bbc1e1889a6c892",
+      "simulation.log": "6fc843e913db4efbe17a5b0b66bdaa24538ea5f01ace437b6c3f010b94bc8a82",
+      "uart.log": "3b33c3f69121349393cba197530ad047a3763965ca6e1f2e8cff236f26e98967"
+    },
+    "evidence/runs/E1Kinf/edn": {
+      "disassembly.log": "b5de4f4cdc6ce72a11716e64a2d9d4076f123cc11e1c15ebbaa6901bc77f0466",
+      "edge_samples.csv": "bc6e912cafc16af93c4e7502ec765204e9da0e711bfd11f86f765c13ed201a57",
+      "firmware.bin": "86d2938ab4b9a72841d4507918df5d507048f2ecb472a386ed3386fac4494e30",
+      "firmware.elf": "a2886480e725e88114b4411e4474823ac7892ae5988b998e9bfa1fb882d9ee50",
+      "firmware.hex": "8ffadabd6fcfab8ebdd6f3d8d91a40427aed310d8b01220a3d43c6c4c2f102fa",
+      "observation.json": "597b0496ca33e189ad69d461002584694472dd637947b66fb63189e4f801cc34",
+      "owner_events.csv": "c46276657c549abf0f343677ebaa4a958ae26f7a0cbafad9cb98926e05e69f20",
+      "owner_samples.csv": "5fa8948c3c937c37f77e590c521f802f2769c2b8d330c53477ed0565b7883023",
+      "simulation.command.json": "b3fc2dd70c507cf2ba9a408934a22a6077b72ea35d437fb448034e870f4a6265",
+      "simulation.log": "7a6e22dad0ce0e6c687b9415e0e92dce921bb3a067293bf73e447807375435b5",
+      "uart.log": "0f50a10b98dc6a2d67128af4123bad44721ba87383ed03939e2169d4e91d2614"
+    },
+    "evidence/runs/E1Kinf/huffbench": {
+      "disassembly.log": "5f57856d4ca8cb0c9a04bfbb7aef88a63fab0fc7d6a27c29c2aefe905e1d653d",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "39d81248c9dc130be96214fa470b9ac543392c52a8b6c84a48cb9bc802d3f941",
+      "firmware.elf": "485123fcda57491fdc461a21e24e91d5c83ce297f86d7dd926067dd57df85d2e",
+      "firmware.hex": "8810879372c9c2bee93fa704801405135f0d4a1e1686699efb896549944a6357",
+      "observation.json": "7a107a8419960dcac39addcee8d6130671dad7aa3f7006ff4cc0760b42ffe264",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "1382930b9f0efc2243332a5b28e7667a28a74cbcd9dd7efb8e6fc9246682a30a",
+      "simulation.log": "401e976da4889287591216b1e2cbe4a190f4499469af3b88d78766df2b6738bb",
+      "uart.log": "29bba63fdff2d4ed1669eb5a416a74f588f6ad3ba0b82997df82d5f19b4a210d"
+    },
+    "evidence/runs/E1Kinf/matmult-int": {
+      "disassembly.log": "56c031da6d5b45fe5c0018cbe1b72044e51b56fbe328a06206d757c4a4e7ca2f",
+      "edge_samples.csv": "54afafdf60afd55aecb98ba73a67ba1ed68bf0cf684bc23619e45fa37ea4ce39",
+      "firmware.bin": "57bc3937129c49f932b602ae58cf09c2af5e82fd8f528c8c549d92de06ca82fb",
+      "firmware.elf": "0d82fa736137918d132de624462535c9502aea47c79473165f236b0621d419e1",
+      "firmware.hex": "ef6b92c9586d261ff400b253e0ad66a439a2d18eeb7415c0000075c8e34dd669",
+      "observation.json": "1a3a66f13296063ce649cb077652e44ac477375af0608491795435b17d3d1b14",
+      "owner_events.csv": "925db7071f778224160cfa06dd02a54bf0f521029564dbb47848867f8832ff05",
+      "owner_samples.csv": "30acf224389830c01620ce4c9b1f225c956876aeb5f1587a40acbfa8ccd09e8b",
+      "simulation.command.json": "46e67c80cffbfd11259dea49ed6d4e71bdb5f1304a17cbdeda511891f8fef488",
+      "simulation.log": "702ca37150d96ac7c9791c3f5319ffb2ad06fcc41a237e2c433238888af51938",
+      "uart.log": "f6703286e078a2df8e6c7e87ceb228bbadff012b5314f6d51492675832763707"
+    },
+    "evidence/runs/E1Kinf/md5sum": {
+      "disassembly.log": "c5274101b7a85ce23d44d37b2bf28fac6f56a1b322bc36374f9cf4894fa2afd9",
+      "edge_samples.csv": "0770f4cb461ba00acd6f8244a2173167597983c92c5d7eedca8cb97cf2a804e2",
+      "firmware.bin": "c6f7a45a4266aeb507c78564cea3b1f8c0a387e6e1df3c098c15d3b89bc5e760",
+      "firmware.elf": "75608ecf6996b0082bca6a5f2937f81c574a4a33923f9ed45a11e19496f464ce",
+      "firmware.hex": "595cda3c39769f3873f6485535a045fc47c57fe8e1185cdada5ac86b5ed16d89",
+      "observation.json": "1b4580d3533b333159a36e826686279e8cd48a8acfa90fe83399e9808d281cb1",
+      "owner_events.csv": "3e1048abd6a6e016037615d965f85124b8393f68e7d9d14dd69c9d9e63395a41",
+      "owner_samples.csv": "49b5898870fee92381179eae9c31a639aa779f6306d2ea847cfc0efc1362d8a8",
+      "simulation.command.json": "adb956dd6638a65babbab2c220e0b4437fa2e955339e73db14e7b0ec2aec1f45",
+      "simulation.log": "8c758b2a553aa722f7f35c616d9f66510e0846b726ed70035b54bf75b8db51be",
+      "uart.log": "d61132d142f26edf018f8dc32ea1d1661c6fbbcf843fd953551d3dd92bd20dc6"
+    },
+    "evidence/runs/E1Kinf/nettle-aes": {
+      "disassembly.log": "4a9ae2b499efa8ee909fa2a9ebc3f7a6739a769aff6f0a73071d36d3abc18e27",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "654ea2ae3910d51f050dad4f5dce1abc3f69aedae89be1fd7f0b44bfd9a8d0af",
+      "firmware.elf": "e72e841ad2b5b82bce88d98df497728a248e00619b74fed2c8601736027de118",
+      "firmware.hex": "13e173040aa423b5b4a535205dd35e2ea1ecb97f73bdcf068fc0a5b155f84f63",
+      "observation.json": "9621937b2ab0747cb537385cdaab4549d5c41daa79ccb4e8a5bebbedbcdc7975",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "18d58fb5606672952f43a4472d5ac77494e41b1d5144dc9d545343f86746546e",
+      "simulation.command.json": "fa10e8dfa55924d8af3e9deeedba9ba7030de9ccb1b8d603984dc53ef14b5ee4",
+      "simulation.log": "3cba02f6847c32ff598ad9007c24212a25df1a20b6b792ab5d5786b63ad580d6",
+      "uart.log": "0d5e64ac1eba1244387ce688eb37381cf2ce79750dda1904c7dba4173a812839"
+    },
+    "evidence/runs/E1Kinf/nettle-sha256": {
+      "disassembly.log": "4bc71949baf944a3e40b1451bd26456d9f7bd7bc3ac3029b54a564d7004a78e1",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "4b82668e39b702b8cc1f5f4793a5c38d373c9eebaec2846954a908fe57f0aff5",
+      "firmware.elf": "92383c41775e7511849702fb979a45502dc0075cc93d35aee30351f172609c0b",
+      "firmware.hex": "95b70c47d03b9ae7fb5f911b1b0434bda0e902d18201eb1c341ab9aca89baad9",
+      "observation.json": "6a2785404c03badf6b817d2d95b67e12ee22f77e723f4838c42d3f904c7fe41f",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "4ed30792d73b50b4bb3b8f921899acb8c11e72ec6bd89b9b77a57ad7bc8aa23e",
+      "simulation.log": "3bc2171f64c42a4c2452bfc8bde133830a8da65566cefbd1cf4d019010cc0cb9",
+      "uart.log": "192907d3f0567a07ec23244af4ee89bdd539662e640d865783fccc69efab1e91"
+    },
+    "evidence/runs/E1Kinf/nsichneu": {
+      "disassembly.log": "fe151f30ecb9f60e3dffd29459dacf307f8e2760939b2af2864c5a80cfe02569",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "c95c904f77f6c77139bf4f1b13c3defc863bbe4f91ce83354fd18f8a00ee86d1",
+      "firmware.elf": "661b5ee0734ea73571df3166063a77b37c713f5f2442faef39a209a7241050cc",
+      "firmware.hex": "d6b7c7349dee3b5ab95585dddf7afc0654696411b753cbf5f8cf7d3297bb8b94",
+      "observation.json": "862ddd1754e0496e6448051b0fcd72219b3f81680ad646f1a5556cf93d5f13d9",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "a2c20f7822fbf0b3618af1032673f004f4a771be02bbb7748f109d070dbb77af",
+      "simulation.log": "243dfc3a17634058f1947b5d1454ad040368ed0438924ff3b04d3a618d4f848e",
+      "uart.log": "5be5335a805a448c12410bc31a7f1459c3ffe525b2a7ee5c9bb75bab4cd69637"
+    },
+    "evidence/runs/E1Kinf/picojpeg": {
+      "disassembly.log": "c0095ca065b343d5d1f55fd9510e9f8838905378db2cafdb4ee9685220f8b215",
+      "edge_samples.csv": "9aa691f1a3d92eca12e09a87c096ea876a9485843548b5f3f2625f28fa8c0214",
+      "firmware.bin": "5630cd50f3a862c115758069764e3ab493f25e585dd71a2e6cbd35fbc660ef6f",
+      "firmware.elf": "02c9e3d17cc9a3c9cf906e275c299b370f5469a90ddcdda11f477dfb125ada11",
+      "firmware.hex": "80faed89a6130ac47c71a81b47166a9542228e4e64cff1a7c83b65611bc53d20",
+      "observation.json": "a387a7b5a40889de5f7bc65d8cfc1036c5194253ea488519ba11d76b8c8213e6",
+      "owner_events.csv": "5a0d8a8f2c56d36a79e7c04725a7ab45f0634e341c4de41d57265d561ef4f2fc",
+      "owner_samples.csv": "ebfdab38e95db3cc13c9b94548947f4605e424ac37d61d913ab8206f442ab06c",
+      "simulation.command.json": "ee04d744c1a5a09b52bb1362302717e1bd38c04722ba95430bf579e3a5f5a0cc",
+      "simulation.log": "f3f406727d2e5395209256476535f0132b1d1f7c08de50ef6779282619c70b6e",
+      "uart.log": "68b2e8007a39c91ce6b2f5fde31fb42f3f106d4555370e0ebce70deaca715be9"
+    },
+    "evidence/runs/E1Kinf/qrduino": {
+      "disassembly.log": "467e29b91f63fc4c7fe0dce736df6c6a9924cbce036e5535785d461920a66f63",
+      "edge_samples.csv": "9e78988aecbfead0f144cfc5f565f97662539730e9df794ef595a73ae37a7814",
+      "firmware.bin": "37c2598102c7dae65a1a4b81d744cf8f61c1574abba5f21e57ca65815d8e385d",
+      "firmware.elf": "e7a35821ffb052a568b2b711601146580aa8f46d70b69b276ca06cd60bf36538",
+      "firmware.hex": "b2f8e79224321593aacfb99cf89ee6849fb50900a7e58675f1cc30978fe29894",
+      "observation.json": "a73ec82ba22395395713d35868f31f331d7834b5289e600f45b9779e7b82e1dd",
+      "owner_events.csv": "a9f18627648c6a3eda963c1420d834f85754950f96bb95406c2049f2485cbaad",
+      "owner_samples.csv": "2663a132ef6cad6b391fd7a79a2027652ec954fcdd63527ebaebe3518623badd",
+      "simulation.command.json": "3f516ff649623023ad4ff9d86fe6b07ef98fd38551aaaf7fc407a37a4c227b3a",
+      "simulation.log": "f3708024aed04b62126830be04ec0b4f8091e3dbe820b64a92f5b670cd212e46",
+      "uart.log": "ac0ec709862f7ce9c51edc5953a1cbe275182c207428d56649a258199a6020d2"
+    },
+    "evidence/runs/E1Kinf/sglib-combined": {
+      "disassembly.log": "ac5c71619ddd8f416bddd51ec493732cbbae5a34e58ad6d76e3348e34533751d",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "468f549f2214f1db32cae1ab056dd945264d7cc908159839305c66e9fafb670e",
+      "firmware.elf": "656690533c1cc2fc3bfdf447f485744164f84f536e03bde6ecaf49ea9116524c",
+      "firmware.hex": "5cc552ab89753efe9395eff0eb1cb86b050a0f6032dccacda4e0598515f1e50f",
+      "observation.json": "227892e30a5997cda3745761e250819b3b829b2b1690d5379f4210fb133e2ae7",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "29cba0320d50fff2b1f6ef757c278a764d987ce2ee0824bbebc68936ebca7355",
+      "simulation.command.json": "ef4165bf2f417e5286d28d29656db3fdc1f68ed1d38aaa7b26e3e87ba6ba2ea1",
+      "simulation.log": "1f0e24173f18aec58d50479d5c837e5068302ecb10cac0719c6f7cba47c34c31",
+      "uart.log": "d2bcd31c2e5c0a2adc48cae38d92a9485955bcd782dd5750b62a47b205d4f22b"
+    },
+    "evidence/runs/E1Kinf/slre": {
+      "disassembly.log": "e45737422c61f4fa8da3179d8cf1af5e4dde426e7d20e1dca6888e9332149d0a",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "1c56f0edfe589be0c5db2b36fc02f7737b65b8835bae56b4d757b9b021616d0e",
+      "firmware.elf": "73231158c587dd381ec596ac8f8e5796f26fdbe3245130d4b181cb04b2b7a602",
+      "firmware.hex": "cecd3830af63cfc23d8e777cbaf9da3dd6219c91b0f5d04f88cb3db6f9a9b2c7",
+      "observation.json": "bb1ff77e966c4e4650c81a02151b1f8dfb2cc67a46b91bf2a5f8bc0c31b951d4",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "1661f8dbe52597ead2df9b610d9b29d389e72274cd83d7f7f896a0fbadc2e3ee",
+      "simulation.log": "6af0ee4c3bc67415db704f500f89dda83f947eb92d0a3ad7f3d1bea7516dfa90",
+      "uart.log": "82f443bf97a3df56accba1d423407de75cd1c908c6977fbe80e6f3ac049b5fcd"
+    },
+    "evidence/runs/E1Kinf/statemate": {
+      "disassembly.log": "90c84d2398ccc66a11c621365a59108794b2b553d18c7164a58781362b7dbca9",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "2710365053bc0e9aa81108c1aca550bdb6074ef8482fe12a9ffc853bff1e8860",
+      "firmware.elf": "f8d58f4f62cfdeabbf33aef6c0d21c7d5aec8813a3d8e2a5da8e2a199fb19251",
+      "firmware.hex": "f2bd2b471085907bcc6a6dbc05b336bc17ce2cf5429e3f92cc92969f08987078",
+      "observation.json": "f529e398a536883f8ce08b8d6da9ac82c84e35bc12c63439a57812cbb0c8649a",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "f6f2fec00380d29f2f226a87d96861794d966748af7e12fcdcf7bd80efb5761e",
+      "simulation.log": "e7be13b0aebb2e9d8eb5cedffd4a7c2c30434c5a563cc49667a650927cb53408",
+      "uart.log": "0783d3d467c41925a28c4233c69be0802c9ce98a4913e47d9ea513b4f50d8319"
+    },
+    "evidence/runs/E1Kinf/tarfind": {
+      "disassembly.log": "aba0b9fed2ac52694951e6f9a581428fc0a587046ace9312757334f19635dc71",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "459dbc0c1b605b1fd8c2b2f39d7fa0d3dc29916fb9506444d1d865c933cb54a6",
+      "firmware.elf": "d90c58d8eae4a067caafce1c79b2f1ae0c3a88c99951fa47be361e632ce2ee58",
+      "firmware.hex": "a438e750871e29c1f4fc2c5b5005e4e9bcb4bdc7de4fa2ba3afb1d3d7933a2dc",
+      "observation.json": "a4fbb71f1a36b309868406dd99b243ab2819a9b59d07d519d8f8f53bb6d72fbf",
+      "owner_events.csv": "3bc379a434c2e347b3d3d75e965b7d5855d0d638959864936154ad3688f64cd9",
+      "owner_samples.csv": "71b07beb1c6ecf33764b055b5f820882749db3ea4d31d7c83e6b116a21d487c4",
+      "simulation.command.json": "a97f811c0dcaf92db4dde27ba2cbd7086adfac9d3b87aee85a83a5953abfb832",
+      "simulation.log": "0966b66d7cb858f7064fc72645590ef5f6c4b66c05095a814ab85d164a6e2e95",
+      "uart.log": "c615bddf3ef2d44495b43acc733fa6724fbb42290503aa7a537cd8999603525a"
+    },
+    "evidence/runs/E1Kinf/ud": {
+      "disassembly.log": "ae794c7b7c3f0df1b1d7d7a41f46fbb925388a25c6948873431076f8ba213eaa",
+      "edge_samples.csv": "9cd507c2258a7d227a9f600ec383a5c47fbf6ed154ee3e56516a19b00ab06e0e",
+      "firmware.bin": "be67d2f0fce326241371fb0d618d3628ea5fed5b1b7f7ea99be1b5fdad3f7334",
+      "firmware.elf": "b32f31093bc25113302bb1995d96ec814f59dcaf7d6272af3bba3df33171f2c5",
+      "firmware.hex": "7ccfdf30ecc8b05cc989d3ffb89f2d112c611bd4e050bac7e4564a8cfed5bf45",
+      "observation.json": "6151545008b72d3e87e6185cdb6abeff1713ac887e6e52dbc5a0fc8c02ac03e6",
+      "owner_events.csv": "74660529b38736a0b5e18a6f3b22c9cfec635c7148908fb375cd580766e4aac0",
+      "owner_samples.csv": "a38c215c580cec7ff0092d59a2b9469c0c1ae1a7a9530e1b4400d7229c2fc9cb",
+      "simulation.command.json": "01726f2cd932e32f9d9a9e1ec655d4225943e8ae6d01f835ec7948533991f58d",
+      "simulation.log": "0f5613b3ebd2097e48aeece6faac84ee859fd7b76665f234326b327e97c99895",
+      "uart.log": "d1a15b8dae4c7cc8ae4ee5192c622d196606c4ffbb1cd5b32da8ee340fca7cf2"
+    },
+    "evidence/runs/E1Kinf/wikisort": {
+      "disassembly.log": "218d5ca96ea68aa4c828e1b8a178d25aeff83ccea3a509aa3152131c2974e313",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "4ef62d2749f6400d0a47cb647710989eaeefb0680babff5e92a1ed9bb0bded9f",
+      "firmware.elf": "f6e2cb0cc0588a0a9ef98d43819a42acffca2131763229c5183b6c09dd498ac9",
+      "firmware.hex": "2bc0bbcbd36c9daf58f2c761837c6196d12bbc8115616c7f99cea2152be28659",
+      "observation.json": "7c58710c2c28bb4305eceb8f7f73dfe709139c16fe1823f056eaca14505c5b10",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "4f3d5223c04a566576f5fa20655fb3c885caf2a4c39516dff76ff7019c6bab54",
+      "simulation.command.json": "4a2618ec81f1f9935b88eabc0f24f541e53118fad4f401d2711a6f69918cc5c7",
+      "simulation.log": "f830a594d90e5b9a4525e26a52c36ed37654424fbb8e39e778e4515a6cd1cbb7",
+      "uart.log": "b197eb778b2ac4b02107cba510824fa357f83d0edca5fe4d67c822b196a3b101"
+    },
+    "evidence/runs/E1Kinf/xgboost": {
+      "disassembly.log": "bd0dcc11ac83e4e5a55d878f4aeeb64573dff7f6272b369a00c76eaaaa8be6a7",
+      "edge_samples.csv": "5838591878b8cf4469d35772f62cf3ec882b6ee6cddbb606295355c2ed5574ec",
+      "firmware.bin": "fa947fdb62de7b7e61c12431852f61f3841ecd33c399c41dc985f47b8926f12a",
+      "firmware.elf": "0f0f814211d0deb9b9ddb1b91c38efa1b937ab3e53839be49ac483b22d7f9492",
+      "firmware.hex": "9185694753ef3095d76d6f5ae0c9ee25601dbdf59c0372b2fa35e529188df3b0",
+      "observation.json": "152a257ccbb931f8dfaf3cd312768812db775bc82deefd7773ca9a137debfcf5",
+      "owner_events.csv": "fd995428d1bb1f07ace955d1b83578ebe6a458553165fd9cf42d7d0d5c39fffc",
+      "owner_samples.csv": "e9e0286e0f836a0addb652fb83044fac6d454d9d6e76907de63234a8227a78a3",
+      "simulation.command.json": "bf7b5d9cb79ddaaeb71a80e05b1b0cfb6d9fbd1524a60ec7c2334066b75cc461",
+      "simulation.log": "ab8207c62e5fc63aa31ed95f1bcfc7a3cf66a05b9a4f8d4e9ba7ba826302e02b",
+      "uart.log": "351d99e04275f9752fbae0bda54f86821cf7cb45cf254815d77e768059d49122"
+    }
+  },
+  "finite_outcomes_used": false
+}

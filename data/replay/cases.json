@@ -1,0 +1,514 @@
+[
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "stored_absolute",
+    "nodes": 324074,
+    "output_sha256": "53f009f6ebf6e0e38aef23a419977396b1bf00d691534e7c891630f44bbd39fb"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "stored_relative",
+    "nodes": 324074,
+    "output_sha256": "0ecad2187db8cdb83a759feb1a592b1f977342cf3d8be2c0f263080b759541e5"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "repaired_absolute",
+    "nodes": 324074,
+    "output_sha256": "53f009f6ebf6e0e38aef23a419977396b1bf00d691534e7c891630f44bbd39fb"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "repaired_relative",
+    "nodes": 324074,
+    "output_sha256": "0ecad2187db8cdb83a759feb1a592b1f977342cf3d8be2c0f263080b759541e5"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "stored_absolute",
+    "nodes": 324074,
+    "output_sha256": "683a908a8ac537b46f79a084a064aa8771b09a5051d3b64ebffa3991c4f15772"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "stored_relative",
+    "nodes": 324074,
+    "output_sha256": "fc7904677e9c545732a6a1fb7badc7c64b2c6d0cbf9e7b8d66c3061344275993"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "repaired_absolute",
+    "nodes": 324074,
+    "output_sha256": "683a908a8ac537b46f79a084a064aa8771b09a5051d3b64ebffa3991c4f15772"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-matmul16",
+    "model": "repaired_relative",
+    "nodes": 324074,
+    "output_sha256": "fc7904677e9c545732a6a1fb7badc7c64b2c6d0cbf9e7b8d66c3061344275993"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "stored_absolute",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "stored_relative",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_absolute",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_relative",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "stored_absolute",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "stored_relative",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_absolute",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_relative",
+    "nodes": 1329574,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "stored_absolute",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "stored_relative",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "repaired_absolute",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "repaired_relative",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "stored_absolute",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "stored_relative",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "repaired_absolute",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-median400",
+    "model": "repaired_relative",
+    "nodes": 142725,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "stored_absolute",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "stored_relative",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_absolute",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_relative",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "stored_absolute",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "stored_relative",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_absolute",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 0,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_relative",
+    "nodes": 120009,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "stored_absolute",
+    "nodes": 339428,
+    "output_sha256": "70049eec61c045eff1cfd4233b49df97678de3f086fe3a3f2315ee259823abb8"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "stored_relative",
+    "nodes": 339428,
+    "output_sha256": "91ddb06cfb864645d68812e57f4fab6b6bd8761afa97c36386482228076ab656"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "repaired_absolute",
+    "nodes": 339428,
+    "output_sha256": "70049eec61c045eff1cfd4233b49df97678de3f086fe3a3f2315ee259823abb8"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "repaired_relative",
+    "nodes": 339428,
+    "output_sha256": "91ddb06cfb864645d68812e57f4fab6b6bd8761afa97c36386482228076ab656"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "stored_absolute",
+    "nodes": 339428,
+    "output_sha256": "aba51ceb5aee942240c07fbf8b9da0b358fe4d125db5fbe8d35054d5ee842407"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "stored_relative",
+    "nodes": 339428,
+    "output_sha256": "81847af817651a50614171abd81e07414a1b21a5057989aa4b2b10649065cbdf"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "repaired_absolute",
+    "nodes": 339428,
+    "output_sha256": "aba51ceb5aee942240c07fbf8b9da0b358fe4d125db5fbe8d35054d5ee842407"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-matmul16",
+    "model": "repaired_relative",
+    "nodes": 339428,
+    "output_sha256": "81847af817651a50614171abd81e07414a1b21a5057989aa4b2b10649065cbdf"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "stored_absolute",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "stored_relative",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_absolute",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_relative",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "stored_absolute",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "stored_relative",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_absolute",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-qsort2048",
+    "model": "repaired_relative",
+    "nodes": 1335610,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "stored_absolute",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "stored_relative",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "repaired_absolute",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "repaired_relative",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "stored_absolute",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "stored_relative",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "repaired_absolute",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-median400",
+    "model": "repaired_relative",
+    "nodes": 160578,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "stored_absolute",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "stored_relative",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_absolute",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit67",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_relative",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "stored_absolute",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "stored_relative",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_absolute",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  },
+  {
+    "service": "bit89",
+    "E": 1,
+    "workload": "riscv-vvadd300",
+    "model": "repaired_relative",
+    "nodes": 138028,
+    "output_sha256": "e90981bf787bf850b1908208ee4d3288a8999d57eaff2e3d8e36fb81e92d8354"
+  }
+]

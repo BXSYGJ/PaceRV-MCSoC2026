@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the MCSoC paper and this artifact when using these experimental materials."
+title: "PaceRV MCSoC 2026 Reproducibility Artifact"
+type: software
+version: 1.0.0
+date-released: 2026-10-28
+url: "https://github.com/BXSYGJ/PaceRV-MCSoC2026"
+repository-code: "https://github.com/BXSYGJ/PaceRV-MCSoC2026"
+license: MIT
+authors:
+  - family-names: Dai
+    given-names: Yihang
+  - family-names: Xu
+    given-names: Shuyu
+  - family-names: Zhou
+    given-names: Yinfeng
+  - family-names: Peng
+    given-names: Chenglei
+preferred-citation:
+  type: conference-paper
+  title: "Memory Admission and Result-Retention Sizing in an RV32IMC FPGA Soft Processor"
+  conference:
+    name: "MCSoC 2026"
+  year: 2026
+  notes: "Accepted; DOI and proceedings pagination pending."
+  authors:
+    - family-names: Dai
+      given-names: Yihang
+    - family-names: Xu
+      given-names: Shuyu
+    - family-names: Zhou
+      given-names: Yinfeng
+    - family-names: Peng
+      given-names: Chenglei

@@ -1,0 +1,763 @@
+{
+  "schema": "review-service-validation-predictions/v1",
+  "completed_utc": "2026-10-11T13:06:03.829485+00:00",
+  "target_outcomes_used": false,
+  "service": "bit89",
+  "E": 0,
+  "workload": "matmult-int",
+  "Khat": 12,
+  "predicted_demand": 187200,
+  "finite_K": [
+    1,
+    11,
+    12,
+    13
+  ],
+  "directory": "archived-workstation-reference",
+  "owner_predictions_sha256": "3bfba71faff30709cda71c134036d8833b8ff8e1f7be79c20a81176f0a8932a6",
+  "expected_full_fast_owners": 320000,
+  "models": {
+    "stored_absolute": {
+      "engine_summary": {
+        "schema": "original-graph-forecast-extension/v1",
+        "nodes": 17539036,
+        "edges": 35764510,
+        "owners": 320000,
+        "transported_event_mask": 32767,
+        "schedule": "bit89",
+        "legacy_graph_replay_exact": true,
+        "original_residual_reconstruction_exact": true,
+        "selected_first_beats": 25972,
+        "selected_later_beats": 55350,
+        "read_transactions": 48067,
+        "write_transactions": 13263,
+        "source_redirect_exclusion_edges": 0,
+        "source_registered_mmio_response_edges": 0,
+        "source_serialized_retirement_drain_edges": 0,
+        "uart_absolute_residual_roots": 72,
+        "incomplete_terminal_read_transactions": 0,
+        "event_kinds": {
+          "data_accept": {
+            "nodes": 1177896,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "data_complete": {
+            "nodes": 1177895,
+            "residual_roots": 3738,
+            "residual_edge_total": 3738,
+            "transported_residual_roots": 0
+          },
+          "ex_mem": {
+            "nodes": 2071812,
+            "residual_roots": 4454,
+            "residual_edge_total": 30855,
+            "transported_residual_roots": 0
+          },
+          "front_flush": {
+            "nodes": 1047,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "front_if": {
+            "nodes": 2073909,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "i_accept": {
+            "nodes": 1240650,
+            "residual_roots": 174222,
+            "residual_edge_total": 174733,
+            "transported_residual_roots": 0
+          },
+          "i_complete": {
+            "nodes": 1240650,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "id_ex": {
+            "nodes": 2071825,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "if_id": {
+            "nodes": 2072869,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "mem_wb": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_beat": {
+            "nodes": 192268,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_command": {
+            "nodes": 48067,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "retire": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_command": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_complete": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          }
+        }
+      },
+      "output_sha256": "09a6530e0258dac51a481d0e1e35f82c0454f343a4b6d50a50af082d1c91238d"
+    },
+    "stored_relative": {
+      "engine_summary": {
+        "schema": "original-graph-forecast-extension/v1",
+        "nodes": 17539036,
+        "edges": 35764510,
+        "owners": 320000,
+        "transported_event_mask": 32767,
+        "schedule": "bit89",
+        "legacy_graph_replay_exact": true,
+        "original_residual_reconstruction_exact": true,
+        "selected_first_beats": 25972,
+        "selected_later_beats": 55350,
+        "read_transactions": 48067,
+        "write_transactions": 13263,
+        "source_redirect_exclusion_edges": 0,
+        "source_registered_mmio_response_edges": 0,
+        "source_serialized_retirement_drain_edges": 0,
+        "uart_absolute_residual_roots": 72,
+        "incomplete_terminal_read_transactions": 0,
+        "event_kinds": {
+          "data_accept": {
+            "nodes": 1177896,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "data_complete": {
+            "nodes": 1177895,
+            "residual_roots": 3738,
+            "residual_edge_total": 3738,
+            "transported_residual_roots": 3666
+          },
+          "ex_mem": {
+            "nodes": 2071812,
+            "residual_roots": 4454,
+            "residual_edge_total": 30855,
+            "transported_residual_roots": 4454
+          },
+          "front_flush": {
+            "nodes": 1047,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "front_if": {
+            "nodes": 2073909,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "i_accept": {
+            "nodes": 1240650,
+            "residual_roots": 174222,
+            "residual_edge_total": 174733,
+            "transported_residual_roots": 174221
+          },
+          "i_complete": {
+            "nodes": 1240650,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "id_ex": {
+            "nodes": 2071825,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "if_id": {
+            "nodes": 2072869,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "mem_wb": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_beat": {
+            "nodes": 192268,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_command": {
+            "nodes": 48067,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "retire": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_command": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_complete": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          }
+        }
+      },
+      "output_sha256": "17ee4e424b177f5f307f7399cb96c32d269c3307787e64f092107e611a65f283"
+    },
+    "repaired_absolute": {
+      "engine_summary": {
+        "schema": "original-graph-forecast-extension/v1",
+        "nodes": 17539036,
+        "edges": 35764510,
+        "owners": 320000,
+        "transported_event_mask": 32767,
+        "schedule": "bit89",
+        "legacy_graph_replay_exact": true,
+        "original_residual_reconstruction_exact": true,
+        "selected_first_beats": 25972,
+        "selected_later_beats": 55350,
+        "read_transactions": 48067,
+        "write_transactions": 13263,
+        "source_redirect_exclusion_edges": 2065854,
+        "source_registered_mmio_response_edges": 3738,
+        "source_serialized_retirement_drain_edges": 1,
+        "uart_absolute_residual_roots": 0,
+        "incomplete_terminal_read_transactions": 0,
+        "event_kinds": {
+          "data_accept": {
+            "nodes": 1177896,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "data_complete": {
+            "nodes": 1177895,
+            "residual_roots": 3738,
+            "residual_edge_total": 3738,
+            "transported_residual_roots": 0
+          },
+          "ex_mem": {
+            "nodes": 2071812,
+            "residual_roots": 4454,
+            "residual_edge_total": 30855,
+            "transported_residual_roots": 0
+          },
+          "front_flush": {
+            "nodes": 1047,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "front_if": {
+            "nodes": 2073909,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "i_accept": {
+            "nodes": 1240650,
+            "residual_roots": 174222,
+            "residual_edge_total": 174733,
+            "transported_residual_roots": 0
+          },
+          "i_complete": {
+            "nodes": 1240650,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "id_ex": {
+            "nodes": 2071825,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "if_id": {
+            "nodes": 2072869,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "mem_wb": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_beat": {
+            "nodes": 192268,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_command": {
+            "nodes": 48067,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "retire": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_command": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_complete": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          }
+        }
+      },
+      "output_sha256": "09a6530e0258dac51a481d0e1e35f82c0454f343a4b6d50a50af082d1c91238d"
+    },
+    "repaired_relative": {
+      "engine_summary": {
+        "schema": "original-graph-forecast-extension/v1",
+        "nodes": 17539036,
+        "edges": 35764510,
+        "owners": 320000,
+        "transported_event_mask": 32767,
+        "schedule": "bit89",
+        "legacy_graph_replay_exact": true,
+        "original_residual_reconstruction_exact": true,
+        "selected_first_beats": 25972,
+        "selected_later_beats": 55350,
+        "read_transactions": 48067,
+        "write_transactions": 13263,
+        "source_redirect_exclusion_edges": 2065854,
+        "source_registered_mmio_response_edges": 3738,
+        "source_serialized_retirement_drain_edges": 1,
+        "uart_absolute_residual_roots": 0,
+        "incomplete_terminal_read_transactions": 0,
+        "event_kinds": {
+          "data_accept": {
+            "nodes": 1177896,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "data_complete": {
+            "nodes": 1177895,
+            "residual_roots": 3738,
+            "residual_edge_total": 3738,
+            "transported_residual_roots": 0
+          },
+          "ex_mem": {
+            "nodes": 2071812,
+            "residual_roots": 4454,
+            "residual_edge_total": 30855,
+            "transported_residual_roots": 4453
+          },
+          "front_flush": {
+            "nodes": 1047,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "front_if": {
+            "nodes": 2073909,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "i_accept": {
+            "nodes": 1240650,
+            "residual_roots": 174222,
+            "residual_edge_total": 174733,
+            "transported_residual_roots": 174221
+          },
+          "i_complete": {
+            "nodes": 1240650,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "id_ex": {
+            "nodes": 2071825,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "if_id": {
+            "nodes": 2072869,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "mem_wb": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_beat": {
+            "nodes": 192268,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "read_command": {
+            "nodes": 48067,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "retire": {
+            "nodes": 2071811,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_command": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          },
+          "write_complete": {
+            "nodes": 13263,
+            "residual_roots": 0,
+            "residual_edge_total": 0,
+            "transported_residual_roots": 0
+          }
+        }
+      },
+      "output_sha256": "17ee4e424b177f5f307f7399cb96c32d269c3307787e64f092107e611a65f283"
+    }
+  },
+  "snapshot_histograms": {
+    "stored_absolute": {
+      "1": 124800,
+      "2": 183222,
+      "10": 702,
+      "12": 1560,
+      "13": 936,
+      "21": 39,
+      "23": 390,
+      "24": 156,
+      "26": 194,
+      "37": 1
+    },
+    "stored_relative": {
+      "1": 124800,
+      "2": 183222,
+      "10": 702,
+      "12": 1560,
+      "13": 936,
+      "21": 39,
+      "23": 390,
+      "24": 156,
+      "26": 194,
+      "37": 1
+    },
+    "repaired_absolute": {
+      "1": 124800,
+      "2": 183222,
+      "10": 702,
+      "12": 1560,
+      "13": 936,
+      "21": 39,
+      "23": 390,
+      "24": 156,
+      "26": 194,
+      "37": 1
+    },
+    "repaired_relative": {
+      "1": 124800,
+      "2": 183222,
+      "10": 702,
+      "12": 1560,
+      "13": 936,
+      "21": 39,
+      "23": 390,
+      "24": 156,
+      "26": 194,
+      "37": 1
+    },
+    "unchanged": {
+      "1": 124800,
+      "2": 183222,
+      "10": 3198,
+      "21": 779,
+      "27": 1
+    }
+  },
+  "full_histograms": {
+    "stored_absolute": {
+      "1": 128000,
+      "2": 187919,
+      "10": 710,
+      "12": 1619,
+      "13": 951,
+      "21": 45,
+      "22": 1,
+      "23": 402,
+      "24": 158,
+      "26": 194,
+      "37": 1
+    },
+    "stored_relative": {
+      "1": 128000,
+      "2": 187919,
+      "10": 710,
+      "12": 1619,
+      "13": 951,
+      "21": 45,
+      "23": 403,
+      "24": 158,
+      "26": 194,
+      "37": 1
+    },
+    "repaired_absolute": {
+      "1": 128000,
+      "2": 187919,
+      "10": 710,
+      "12": 1619,
+      "13": 951,
+      "21": 45,
+      "22": 1,
+      "23": 402,
+      "24": 158,
+      "26": 194,
+      "37": 1
+    },
+    "repaired_relative": {
+      "1": 128000,
+      "2": 187919,
+      "10": 710,
+      "12": 1619,
+      "13": 951,
+      "21": 45,
+      "23": 403,
+      "24": 158,
+      "26": 194,
+      "37": 1
+    },
+    "unchanged": {
+      "1": 128000,
+      "2": 187919,
+      "10": 3280,
+      "17": 1,
+      "21": 799,
+      "27": 1
+    }
+  },
+  "model_knees": {
+    "stored_absolute": {
+      "K99": 12,
+      "demand": 187200
+    },
+    "stored_relative": {
+      "K99": 12,
+      "demand": 187200
+    },
+    "repaired_absolute": {
+      "K99": 12,
+      "demand": 187200
+    },
+    "repaired_relative": {
+      "K99": 12,
+      "demand": 187200
+    },
+    "unchanged": {
+      "K99": 10,
+      "demand": 187200
+    }
+  },
+  "predicted_finite": [
+    {
+      "K": 1,
+      "model": "stored_absolute",
+      "predicted_extra_fast": 0,
+      "predicted_capture": 0.0,
+      "predicted_saved_cycles": 0
+    },
+    {
+      "K": 1,
+      "model": "stored_relative",
+      "predicted_extra_fast": 0,
+      "predicted_capture": 0.0,
+      "predicted_saved_cycles": 0
+    },
+    {
+      "K": 1,
+      "model": "repaired_absolute",
+      "predicted_extra_fast": 0,
+      "predicted_capture": 0.0,
+      "predicted_saved_cycles": 0
+    },
+    {
+      "K": 1,
+      "model": "repaired_relative",
+      "predicted_extra_fast": 0,
+      "predicted_capture": 0.0,
+      "predicted_saved_cycles": 0
+    },
+    {
+      "K": 1,
+      "model": "unchanged",
+      "predicted_extra_fast": 0,
+      "predicted_capture": 0.0,
+      "predicted_saved_cycles": 0
+    },
+    {
+      "K": 11,
+      "model": "stored_absolute",
+      "predicted_extra_fast": 183924,
+      "predicted_capture": 0.9825,
+      "predicted_saved_cycles": 183923
+    },
+    {
+      "K": 11,
+      "model": "stored_relative",
+      "predicted_extra_fast": 183924,
+      "predicted_capture": 0.9825,
+      "predicted_saved_cycles": 183923
+    },
+    {
+      "K": 11,
+      "model": "repaired_absolute",
+      "predicted_extra_fast": 183924,
+      "predicted_capture": 0.9825,
+      "predicted_saved_cycles": 183923
+    },
+    {
+      "K": 11,
+      "model": "repaired_relative",
+      "predicted_extra_fast": 183924,
+      "predicted_capture": 0.9825,
+      "predicted_saved_cycles": 183923
+    },
+    {
+      "K": 11,
+      "model": "unchanged",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 12,
+      "model": "stored_absolute",
+      "predicted_extra_fast": 185484,
+      "predicted_capture": 0.9908333333333333,
+      "predicted_saved_cycles": 185483
+    },
+    {
+      "K": 12,
+      "model": "stored_relative",
+      "predicted_extra_fast": 185484,
+      "predicted_capture": 0.9908333333333333,
+      "predicted_saved_cycles": 185483
+    },
+    {
+      "K": 12,
+      "model": "repaired_absolute",
+      "predicted_extra_fast": 185484,
+      "predicted_capture": 0.9908333333333333,
+      "predicted_saved_cycles": 185483
+    },
+    {
+      "K": 12,
+      "model": "repaired_relative",
+      "predicted_extra_fast": 185484,
+      "predicted_capture": 0.9908333333333333,
+      "predicted_saved_cycles": 185483
+    },
+    {
+      "K": 12,
+      "model": "unchanged",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 13,
+      "model": "stored_absolute",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 13,
+      "model": "stored_relative",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 13,
+      "model": "repaired_absolute",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 13,
+      "model": "repaired_relative",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    },
+    {
+      "K": 13,
+      "model": "unchanged",
+      "predicted_extra_fast": 186420,
+      "predicted_capture": 0.9958333333333333,
+      "predicted_saved_cycles": 186419
+    }
+  ],
+  "pretarget_cohort_counts": {
+    "snapshot": 312000,
+    "phase_affected": 320000,
+    "age_exposed": 192000
+  }
+}

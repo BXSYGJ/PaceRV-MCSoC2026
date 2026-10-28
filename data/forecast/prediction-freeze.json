@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-09T08:07:53.126330+00:00",
+  "prediction_sha256": "bc477c85c36f8a34ce087329f0c9bbd2090e6b688bd4717a5f08de7492965235",
+  "owner_prediction_sha256": "96e45ea861f7c57441f46bd25ede989556beca679c151db17c5e36d6a59a81f1",
+  "protocol_sha256": "161efe53adc9c7fd7441daf29158e9e8771fd7cae8cac58ebee1d4b26d0a3ed1",
+  "loaded_wrapper_sha256": "b14d48c922fd03740925b8cc419c10af57da0d6b2a8f8e85758ed3cb188310ce",
+  "complete_original_cases": 38,
+  "new_target_models_or_runs_absent": true
+}

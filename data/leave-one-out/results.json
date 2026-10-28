@@ -1,0 +1,389 @@
+{
+  "schema": "loo-k-selection/v1",
+  "source": "PREDICTIONS.json",
+  "source_sha256": "4ef1b3e5d14edc8bc596cd26634272ae016c57c3a38f3ac672434e9b3cf1eee0",
+  "target": 0.99,
+  "finite_outcomes_used": false,
+  "modes": {
+    "E0": {
+      "pooled_demand": 375063,
+      "pooled_age_histogram": {
+        "2": 370690,
+        "18": 3273,
+        "29": 1099,
+        "43": 1
+      },
+      "K_full_suite": 18,
+      "positive_demand_programs": 7,
+      "zero_demand_programs": 12,
+      "programs_meeting_target": 5,
+      "K_loo_values": [
+        2,
+        18
+      ],
+      "heldout_aggregate_capture": 0.9885405918472363,
+      "folds": [
+        {
+          "workload": "aha-mont64",
+          "demand": 3,
+          "K_loo": 18,
+          "K_self": 2,
+          "captured": 3,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "crc32",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "depthconv",
+          "demand": 8195,
+          "K_loo": 18,
+          "K_self": 2,
+          "captured": 8195,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "edn",
+          "demand": 102295,
+          "K_loo": 18,
+          "K_self": 2,
+          "captured": 102295,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "huffbench",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "matmult-int",
+          "demand": 187200,
+          "K_loo": 2,
+          "K_self": 18,
+          "captured": 183222,
+          "capture": 0.97875,
+          "meets_target": false
+        },
+        {
+          "workload": "md5sum",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nettle-aes",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nettle-sha256",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nsichneu",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "picojpeg",
+          "demand": 2135,
+          "K_loo": 18,
+          "K_self": 29,
+          "captured": 1815,
+          "capture": 0.8501170960187353,
+          "meets_target": false
+        },
+        {
+          "workload": "qrduino",
+          "demand": 25255,
+          "K_loo": 18,
+          "K_self": 2,
+          "captured": 25255,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "sglib-combined",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "slre",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "statemate",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "tarfind",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "ud",
+          "demand": 49980,
+          "K_loo": 18,
+          "K_self": 2,
+          "captured": 49980,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "wikisort",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "xgboost",
+          "demand": 0,
+          "K_loo": 18,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        }
+      ]
+    },
+    "E1": {
+      "pooled_demand": 4373,
+      "pooled_age_histogram": {
+        "17": 3273,
+        "28": 1099,
+        "43": 1
+      },
+      "K_full_suite": 28,
+      "positive_demand_programs": 2,
+      "zero_demand_programs": 17,
+      "programs_meeting_target": 2,
+      "K_loo_values": [
+        28
+      ],
+      "heldout_aggregate_capture": 0.999771324033844,
+      "folds": [
+        {
+          "workload": "aha-mont64",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "crc32",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "depthconv",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "edn",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "huffbench",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "matmult-int",
+          "demand": 3978,
+          "K_loo": 28,
+          "K_self": 28,
+          "captured": 3977,
+          "capture": 0.9997486173956762,
+          "meets_target": true
+        },
+        {
+          "workload": "md5sum",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nettle-aes",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nettle-sha256",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "nsichneu",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "picojpeg",
+          "demand": 395,
+          "K_loo": 28,
+          "K_self": 28,
+          "captured": 395,
+          "capture": 1.0,
+          "meets_target": true
+        },
+        {
+          "workload": "qrduino",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "sglib-combined",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "slre",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "statemate",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "tarfind",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "ud",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "wikisort",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        },
+        {
+          "workload": "xgboost",
+          "demand": 0,
+          "K_loo": 28,
+          "K_self": null,
+          "captured": 0,
+          "capture": null,
+          "meets_target": null
+        }
+      ]
+    }
+  }
+}

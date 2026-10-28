@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "numerical_reduction": "passed",
+  "changed_service_instruction_pairs": 2177072,
+  "unseen_instruction_pairs_joined_to_measured_events": 16396,
+  "native_predictor_cases_matched": 64,
+  "timed_native_memory_RTL": {
+    "status": "passed",
+    "cases": [
+      {
+        "case": "bit67/E0/K2/riscv-matmul16",
+        "status": "passed",
+        "cycles": 46398,
+        "retired": 25814,
+        "uart_sha256": "cb019f86af067ce02cdc4089f3d073a74dc07c979d5039ffcef31785bb964f8a"
+      }
+    ]
+  },
+  "RTL_tool": "Verilator 5.032",
+  "PDS_models": "installed separately; exact model hashes verified",
+  "fresh_physical_board_run_in_this_artifact_release": false
+}

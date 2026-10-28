@@ -1,0 +1,6 @@
+model,predicted_K99,actual_K99,predicted_demand,actual_demand,histogram_L1_error,admission_MAE,admission_max_absolute_error,admission_exact_count,admission_mismatch_count,consume_MAE,consume_max_absolute_error,consume_exact_count,consume_mismatch_count,age_MAE,age_max_absolute_error,age_exact_count,age_mismatch_count
+stored_absolute,12,12,187200,187200,0,1836.94995,1837,0,320000,1836.949953125,1837,0,320000,3.125e-06,1,319999,1
+stored_relative,12,12,187200,187200,0,0.0,0,320000,0,0.0,0,320000,0,0.0,0,320000,0
+repaired_absolute,12,12,187200,187200,0,1836.94995,1837,0,320000,1836.949953125,1837,0,320000,3.125e-06,1,319999,1
+repaired_relative,12,12,187200,187200,0,0.0,0,320000,0,0.0,0,320000,0,0.0,0,320000,0
+unchanged,10,12,187200,187200,6474,54621.480290625,106096,0,320000,54621.5064,106096,0,320000,0.026109375,10,316674,3326
