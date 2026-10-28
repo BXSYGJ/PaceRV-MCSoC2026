@@ -9,8 +9,8 @@
     "Yinfeng Zhou",
     "Chenglei Peng"
   ],
-  "camera_ready_pdf_sha256": "86f686fb582fcf930489f658d16bb5c54c9b3358f6e0beafedf74f9ffe358a53",
-  "camera_ready_tex_sha256": "88d4ca9d332e0661ae91e7497e1e0df602674e3a5c6427a06946902a42c941a3",
+  "camera_ready_pdf_sha256": "dda5f1a0bf1bc3096c392765e1ee81b010269f5cec4238de73e63c874eb9c885",
+  "camera_ready_tex_sha256": "1cade911a36b0587d69df6a371bd5491081c0ed95f55a1e5cb88cf5e36c6a23c",
   "hardware_repository": "https://github.com/BXSYGJ/PaceRV",
   "hardware_commit": "b3ff0f886bb878d8ebac44366f3182eb6cbb5241",
   "hardware_tag": "v1.0.0",
@@ -21,5 +21,8 @@
     "E1": "early requests",
     "owner": "dynamic prepared multiplication",
     "lifetime": "validity window"
-  }
+  },
+  "scientific_baseline_pdf_sha256": "86f686fb582fcf930489f658d16bb5c54c9b3358f6e0beafedf74f9ffe358a53",
+  "scientific_baseline_tex_sha256": "88d4ca9d332e0661ae91e7497e1e0df602674e3a5c6427a06946902a42c941a3",
+  "availability_statement_added": "2026-10-28"
 }

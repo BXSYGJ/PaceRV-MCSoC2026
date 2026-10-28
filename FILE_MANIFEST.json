@@ -2706,8 +2706,8 @@
   },
   {
     "path": "paper.json",
-    "bytes": 903,
-    "sha256": "53a2d55fe81944c2766d99e005bfb12e3e539e865161c0fc70a08a2ea786f4ad"
+    "bytes": 1162,
+    "sha256": "fccafada8df10cc5b8a73b655affca51d3486d9aae51d6f434030034eb5ce778"
   },
   {
     "path": "provenance.json",
